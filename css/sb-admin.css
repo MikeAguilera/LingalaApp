@@ -222,3 +222,26 @@ ul.alert-dropdown {
 .panel-yellow a:hover {
     color: #df8a13;
 }
+
+
+/********************************************/
+            /*Media Queries*/
+/********************************************/
+@media screen and (max-width: 768px){
+.container-fluid {
+    margin-top: -45px !important;
+}
+
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+max-height: 380px;
+}
+};
+
+
+
+
+
+
+
+
+
