@@ -1,6 +1,6 @@
 <!--Header Begin-->
 <?php 
-$pageTitle = "Learn Lingala";
+$pageTitle = "Contact Us";
 include 'inc/header.php'; ?>
 <!--Header End-->
 
@@ -12,7 +12,8 @@ include 'inc/header.php'; ?>
                 <!-- Page Heading -->
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1 class="page-header">Welcome!<small></small>
+                        <h1 class="page-header">
+                            Welcome <small> to Learn Lingala!</small>
                         </h1>
                         <ol class="breadcrumb">
                             <li class="active">
@@ -24,9 +25,9 @@ include 'inc/header.php'; ?>
                 <!-- /.row -->
 
 <div class="jumbotron">
-    <h1>Begin Learning Lingala Today!</h1>
-    <p>Lingala (Ngala) is a Bantu language spoken throughout the northwestern part of the Democratic Republic of the Congo and a large part of the Republic of the Congo, as well as to some degree in Angola and the Central African Republic. It has over 10 million speakers.</p>
-    <a href="basic.html" class="btn btn-success">Basic Test</a>
+    <h1>Contact Us</h1>
+    <p>If you have a quiz to suggest please email me. </p>
+    <a href="mailto:michael.aguilera@gmail.com" class="btn btn-success">Email Me</a>
 </div>
 
 </div>
