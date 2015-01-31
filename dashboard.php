@@ -37,10 +37,10 @@ include 'inc/header.php'; ?>
                             <div class="panel-heading">
                                 <div class="row">
                                     <div class="col-xs-3">
-                                        <i class="fa fa-comments fa-5x"></i>
+                                        <i class="fa fa-fw fa-book fa-5x"></i>
                                     </div>
                                     <div class="col-xs-9 text-right">
-                                        <div class="huge">Basic</div>
+                                        <div class="huge">Basics</div>
                                         <div>   </div>
                                     </div>
                                 </div>
@@ -59,7 +59,7 @@ include 'inc/header.php'; ?>
                             <div class="panel-heading">
                                 <div class="row">
                                     <div class="col-xs-3">
-                                        <i class="fa fa-tasks fa-5x"></i>
+                                        <i class="fa fa-fw fa-comment fa-5x"></i>
                                     </div>
                                     <div class="col-xs-9 text-right">
                                         <div class="huge">Verbs</div>
@@ -81,7 +81,7 @@ include 'inc/header.php'; ?>
                             <div class="panel-heading">
                                 <div class="row">
                                     <div class="col-xs-3">
-                                        <i class="fa fa-shopping-cart fa-5x"></i>
+                                        <i class="fa fa-fw fa-comments fa-5x"></i>
                                     </div>
                                     <div class="col-xs-9 text-right">
                                         <div class="huge">Phrases</div>
@@ -103,7 +103,7 @@ include 'inc/header.php'; ?>
                             <div class="panel-heading">
                                 <div class="row">
                                     <div class="col-xs-3">
-                                        <i class="fa fa-support fa-5x"></i>
+                                        <i class="fa fa-fw fa-comment-o fa-5x"></i>
                                     </div>
                                     <div class="col-xs-9 text-right">
                                         <div class="huge">Intermediate</div>
@@ -129,7 +129,7 @@ include 'inc/header.php'; ?>
                             <div class="panel-heading">
                                 <div class="row">
                                     <div class="col-xs-3">
-                                        <i class="fa fa-comments fa-5x"></i>
+                                        <i class="fa fa-fw fa-users fa-5x"></i>
                                     </div>
                                     <div class="col-xs-9 text-right">
                                         <div class="huge">Family</div>
@@ -151,7 +151,7 @@ include 'inc/header.php'; ?>
                             <div class="panel-heading">
                                 <div class="row">
                                     <div class="col-xs-3">
-                                        <i class="fa fa-tasks fa-5x"></i>
+                                        <i class="fa fa-fw fa-home fa-5x"></i>
                                     </div>
                                     <div class="col-xs-9 text-right">
                                         <div class="huge">In The Home</div>
@@ -173,7 +173,7 @@ include 'inc/header.php'; ?>
                             <div class="panel-heading">
                                 <div class="row">
                                     <div class="col-xs-3">
-                                        <i class="fa fa-shopping-cart fa-5x"></i>
+                                        <i class="fa fa-fw fa-star-o fa-5x"></i>
                                     </div>
                                     <div class="col-xs-9 text-right">
                                         <div class="huge">Advanced</div>
@@ -195,7 +195,7 @@ include 'inc/header.php'; ?>
                             <div class="panel-heading">
                                 <div class="row">
                                     <div class="col-xs-3">
-                                        <i class="fa fa-support fa-5x"></i>
+                                        <i class="fa fa-fw fa-envelope fa-5x"></i>
                                     </div>
                                     <div class="col-xs-9 text-right">
                                         <div class="huge">Contact Us</div>

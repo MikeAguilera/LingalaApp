@@ -51,7 +51,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Learn Lingala</a>
+                <a class="navbar-brand" href="index.php">Learn Lingala</a>
             </div>
 
 
@@ -59,31 +59,31 @@
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
                    <li>
-                        <a href="basic.html"><i class="fa fa-fw fa-book"></i> Basics</a>
+                        <a href="basic.php"><i class="fa fa-fw fa-book"></i> Basics</a>
                     </li>
                     <li>
-                        <a href="verbs.html"><i class="fa fa-fw fa-comment"></i> Verbs</a>
+                        <a href="verbs.php"><i class="fa fa-fw fa-comment"></i> Verbs</a>
                     </li>
                     <li>
-                        <a href="phrase.html"><i class="fa fa-fw fa-comments"></i> Phrases</a>
+                        <a href="phrase.php"><i class="fa fa-fw fa-comments"></i> Phrases</a>
                     </li>
                     <li>
-                        <a href="intermediate.html"><i class="fa fa-fw fa-comment-o"></i> Intermediate</a>
+                        <a href="intermediate.php"><i class="fa fa-fw fa-comment-o"></i> Intermediate</a>
                     </li>
                     <li>
-                        <a href="Family.html"><i class="fa fa-fw fa-home"></i> Family</a>
+                        <a href="Family.php"><i class="fa fa-fw fa-users"></i> Family</a>
                     </li>
                     <li>
-                        <a href="inthehouse.html"><i class="fa fa-fw fa-comments-o"></i> In The Home</a>
+                        <a href="inthehouse.php"><i class="fa fa-fw fa-home"></i> In The Home</a>
                     </li>
                     <li>
-                        <a href="advanced.html"><i class="fa fa-fw fa-star-o"></i> Advanced</a>
+                        <a href="advanced.php"><i class="fa fa-fw fa-star-o"></i> Advanced</a>
                     </li>
                     <li>
-                        <a href="about.html"><i class="fa fa-fw fa-info"></i> About</a>
+                        <a href="about.php"><i class="fa fa-fw fa-info"></i> About</a>
                     </li>
                     <li>
-                        <a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact Us</a>
+                        <a href="contact.php"><i class="fa fa-fw fa-envelope"></i> Contact Us</a>
                     </li>
                 </ul>
             </div>

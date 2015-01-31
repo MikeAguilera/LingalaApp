@@ -13,11 +13,11 @@ include 'inc/header.php'; ?>
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
-                            Basic <small>Basic Lingala Quiz</small>
+                            Basic <small></small>
                         </h1>
                         <ol class="breadcrumb">
                             <li class="active">
-                                <i class="fa fa-dashboard"></i> Basic
+                                <i class="fa fa-dashboard"></i> Basic Lingala
                             </li>
                         </ol>
                     </div>
@@ -27,7 +27,7 @@ include 'inc/header.php'; ?>
  <div class="jumbotron">
                 
              
-        <h1 class="quizName">Basic</h1>
+        <h1 class="quizName">Basics Quiz</h1>
 
         <div class="quizArea">
             <div class="quizHeader">

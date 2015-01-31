@@ -26,7 +26,7 @@ include 'inc/header.php'; ?>
 <div class="jumbotron">
     <h1>Begin Learning Lingala Today!</h1>
     <p>Lingala (Ngala) is a Bantu language spoken throughout the northwestern part of the Democratic Republic of the Congo and a large part of the Republic of the Congo, as well as to some degree in Angola and the Central African Republic. It has over 10 million speakers.</p>
-    <a href="basic.html" class="btn btn-success">Basic Test</a>
+    <a href="dashboard.php" class="btn btn-success">Get Started!</a>
 </div>
 
 </div>

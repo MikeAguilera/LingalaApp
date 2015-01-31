@@ -4,7 +4,7 @@
 
 var basicJSON = {
     "info": {
-        "name":    "Basic Test",
+        "name":    "Basic Quiz",
         "main":    "<p> This is a great place to start!</p>",
         "results": "<h5>Take another quiz</h5><p>Keep learning by taking more quizes.</p>",
         "level1":  "DRC Ready",
