@@ -25,7 +25,7 @@ include 'inc/header.php'; ?>
                 <!-- /.row -->
 
 <div class="jumbotron">
-    <h1>Select a quiz!</h1>
+    <h1>Select a topic!</h1>
     <p>Start slow with our Basic Quiz or if you are brave choose our Advanced quiz!</p>
 </div>
 
@@ -45,9 +45,9 @@ include 'inc/header.php'; ?>
                                     </div>
                                 </div>
                             </div>
-                            <a href="#">
+                            <a href="basic.php">
                                 <div class="panel-footer">
-                                    <span class="pull-left">Take the quiz</span>
+                                    <span class="pull-left">Take a quiz</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                                     <div class="clearfix"></div>
                                 </div>
@@ -67,9 +67,9 @@ include 'inc/header.php'; ?>
                                     </div>
                                 </div>
                             </div>
-                            <a href="#">
+                            <a href="verbs.php">
                                 <div class="panel-footer">
-                                    <span class="pull-left">Take the quiz</span>
+                                    <span class="pull-left">Take a quiz</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                                     <div class="clearfix"></div>
                                 </div>
@@ -89,9 +89,9 @@ include 'inc/header.php'; ?>
                                     </div>
                                 </div>
                             </div>
-                            <a href="#">
+                            <a href="phrase.php">
                                 <div class="panel-footer">
-                                    <span class="pull-left">Take the quiz</span>
+                                    <span class="pull-left">Take a quiz</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                                     <div class="clearfix"></div>
                                 </div>
@@ -111,9 +111,9 @@ include 'inc/header.php'; ?>
                                     </div>
                                 </div>
                             </div>
-                            <a href="#">
+                            <a href="Intermediate.php">
                                 <div class="panel-footer">
-                                    <span class="pull-left">Take the quiz</span>
+                                    <span class="pull-left">Take a quiz</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                                     <div class="clearfix"></div>
                                 </div>
@@ -137,9 +137,9 @@ include 'inc/header.php'; ?>
                                     </div>
                                 </div>
                             </div>
-                            <a href="#">
+                            <a href="Family.php">
                                 <div class="panel-footer">
-                                    <span class="pull-left">Take the quiz</span>
+                                    <span class="pull-left">Take a quiz</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                                     <div class="clearfix"></div>
                                 </div>
@@ -159,9 +159,9 @@ include 'inc/header.php'; ?>
                                     </div>
                                 </div>
                             </div>
-                            <a href="#">
+                            <a href="inthehouse.php">
                                 <div class="panel-footer">
-                                    <span class="pull-left">Take the quiz</span>
+                                    <span class="pull-left">Take a quiz</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                                     <div class="clearfix"></div>
                                 </div>
@@ -181,9 +181,9 @@ include 'inc/header.php'; ?>
                                     </div>
                                 </div>
                             </div>
-                            <a href="#">
+                            <a href="Advanced.php">
                                 <div class="panel-footer">
-                                    <span class="pull-left">Take the quiz</span>
+                                    <span class="pull-left">Take a quiz</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                                     <div class="clearfix"></div>
                                 </div>
@@ -203,7 +203,7 @@ include 'inc/header.php'; ?>
                                     </div>
                                 </div>
                             </div>
-                            <a href="#">
+                            <a href="contact.php">
                                 <div class="panel-footer">
                                     <span class="pull-left">Email Us!</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>

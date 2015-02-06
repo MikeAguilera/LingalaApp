@@ -49,6 +49,98 @@ include 'inc/header.php'; ?>
             </div>
        </div>
     </div>
+
+    <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <i class="fa fa-fw fa-book fa-5x"></i>
+                                    </div>
+                                    <div class="col-xs-9 text-right">
+                                        <div class="huge">Basics 2</div>
+                                        <div>   </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="basic2.php">
+                                <div class="panel-footer">
+                                    <span class="pull-left">Take a quiz</span>
+                                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="panel panel-green">
+                            <div class="panel-heading">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <i class="fa fa-fw fa-comment fa-5x"></i>
+                                    </div>
+                                    <div class="col-xs-9 text-right">
+                                        <div class="huge">Verbs</div>
+                                        <div></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="verbs.php">
+                                <div class="panel-footer">
+                                    <span class="pull-left">Take a quiz</span>
+                                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="panel panel-yellow">
+                            <div class="panel-heading">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <i class="fa fa-fw fa-comments fa-5x"></i>
+                                    </div>
+                                    <div class="col-xs-9 text-right">
+                                        <div class="huge">Phrases</div>
+                                        <div></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="phrase.php">
+                                <div class="panel-footer">
+                                    <span class="pull-left">Take a quiz</span>
+                                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="panel panel-red">
+                            <div class="panel-heading">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <i class="fa fa-fw fa-comment-o fa-5x"></i>
+                                    </div>
+                                    <div class="col-xs-9 text-right">
+                                        <div class="huge">Intermediate</div>
+                                        <div></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="Intermediate.php">
+                                <div class="panel-footer">
+                                    <span class="pull-left">Take a quiz</span>
+                                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row -->
 </div>
 </div>
 
@@ -65,7 +157,7 @@ include 'inc/header.php'; ?>
     <script src="js/plugins/morris/morris-data.js"></script>
 
     <script src="js/jquery.js"></script>
-    <script src="js/slickQuiz-config.js"></script>
+    <script src="js/config/slickQuiz-config.js"></script>
     <script src="js/slickQuiz.js"></script>
     <script src="js/master.js"></script>
     
