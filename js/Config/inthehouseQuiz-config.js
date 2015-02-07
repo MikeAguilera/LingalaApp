@@ -2,10 +2,10 @@
 
 // NOTE: pay attention to commas, IE struggles with those bad boys
 
-var phraseJSON = {
+var basicJSON = {
     "info": {
-        "name":    "Phrase Test",
-        "main":    "<p> This is the Phrase Quiz</p>",
+        "name":    "In The Home Test",
+        "main":    "<p> This is the In The Home Quiz</p>",
         "results": "<h5>Take another quiz</h5><p>Keep learning by taking more quizes.</p>",
         "level1":  "DRC Ready",
         "level2":  "Lingala Intermediate",

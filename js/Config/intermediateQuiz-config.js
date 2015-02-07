@@ -2,10 +2,10 @@
 
 // NOTE: pay attention to commas, IE struggles with those bad boys
 
-var advancedJSON = {
+var basicJSON = {
     "info": {
-        "name":    "Advanced Test",
-        "main":    "<p> This is the Advanced Quiz</p>",
+        "name":    "Intermediate Test",
+        "main":    "<p> This is the Intermediate Quiz</p>",
         "results": "<h5>Take another quiz</h5><p>Keep learning by taking more quizes.</p>",
         "level1":  "DRC Ready",
         "level2":  "Lingala Intermediate",

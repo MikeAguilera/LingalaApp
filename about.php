@@ -25,30 +25,25 @@ include 'inc/header.php'; ?>
                 <!-- /.row -->
 
 <div class="jumbotron">
-    <h1>About Us</h1>
-    <p>Am am social worker and tech consultant. I have my MSW and also self taught computer programming.</p>
+    <h1>About Me</h1> <br />
+    <h4>Michael Aguilera - </h4>
+    <p>I am Social Worker with a Maters Degree in Social Work (MSW) and Professional Web Developer &amp; Tech Consultant. 
+    </p>
+    <p>I also hold two Undergraduate Degrees: One in Sociology with an emphasis in Organizational Studies
+     and the other in Chicana/o Studies with and emphasis in Public Policy. 
+    </p>
 </div>
 
 </div>
 </div>
 
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+<!--Footer Begin-->
+<?php
+include 'inc/footer.php'; 
+?>
+ <!--Footer End-->
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Morris Charts JavaScript -->
-    <script src="js/plugins/morris/raphael.min.js"></script>
-    <script src="js/plugins/morris/morris.min.js"></script>
-    <script src="js/plugins/morris/morris-data.js"></script>
-
-    <script src="js/jquery.js"></script>
-    <script src="js/slickQuiz-config.js"></script>
-    <script src="js/slickQuiz.js"></script>
-    <script src="js/master.js"></script>
-    
     </body>
 
 

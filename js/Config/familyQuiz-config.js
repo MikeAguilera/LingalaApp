@@ -2,10 +2,10 @@
 
 // NOTE: pay attention to commas, IE struggles with those bad boys
 
-var verbJSON = {
+var basicJSON = {
     "info": {
-        "name":    "Verb Test",
-        "main":    "<p> This is a great place to start!</p>",
+        "name":    "Family Test",
+        "main":    "<p> This is the Family Quiz</p>",
         "results": "<h5>Take another quiz</h5><p>Keep learning by taking more quizes.</p>",
         "level1":  "DRC Ready",
         "level2":  "Lingala Intermediate",

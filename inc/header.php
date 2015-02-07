@@ -86,7 +86,7 @@
                         <a href="about.php"><i class="fa fa-fw fa-info"></i> About</a>
                     </li>
                     <li>
-                        <a href="contact.php"><i class="fa fa-fw fa-envelope"></i> Contact Us</a>
+                        <a href="contact.php"><i class="fa fa-fw fa-envelope"></i> Contact Me</a>
                     </li>
                 </ul>
             </div>

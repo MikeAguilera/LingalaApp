@@ -52,22 +52,13 @@ include 'inc/header.php'; ?>
 </div>
 </div>
 
+<!--Footer Begin-->
+<?php
+include 'inc/footer.php'; 
+?>
+ <!--Footer End-->
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Morris Charts JavaScript -->
-    <script src="js/plugins/morris/raphael.min.js"></script>
-    <script src="js/plugins/morris/morris.min.js"></script>
-    <script src="js/plugins/morris/morris-data.js"></script>
-
-    <script src="js/jquery.js"></script>
-    <script src="js/advancedQuiz-config.js"></script>
-    <script src="js/advancedQuiz.js"></script>
-    <script src="js/master.js"></script>
+<script src="js/config/advancedQuiz-config.js"></script>
     
     </body>
 
