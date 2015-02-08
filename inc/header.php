@@ -1,8 +1,3 @@
-<?php
-    require_once('config.php');
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,9 +12,9 @@
 <!--From Lingala App Begin-->
     <title><?php echo $pageTitle; ?></title>
 
-        <!--<link href="css/reset.css" media="screen" rel="stylesheet" type="text/css">-->
+        <!--<link href="<?php echo BASE_URL; ?>css/reset.css" media="screen" rel="stylesheet" type="text/css">-->
         <link href="<?php echo BASE_URL; ?>css/slickQuiz.css" media="screen" rel="stylesheet" type="text/css">
-        <!--<link href="css/master.css" media="screen" rel="stylesheet" type="text/css">-->
+        <!--<link href="<?php echo BASE_URL; ?>css/master.css" media="screen" rel="stylesheet" type="text/css">-->
 <!--From Lingala App End-->
 
     <!-- Bootstrap Core CSS -->
@@ -56,7 +51,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php">Learn Lingala</a>
+                <a class="navbar-brand" href="<?php echo BASE_URL; ?>index.php">Learn Lingala</a>
             </div>
 
 
@@ -64,7 +59,7 @@
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
                     <li>
-                        <a href="dashboard.php"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
+                        <a href="<?php echo BASE_URL; ?>dashboard.php"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
                     </li>
                    <li>
                         <a href="<?php echo BASE_URL; ?>Home/basicHome.php"><i class="fa fa-fw fa-book"></i> Basics</a>
