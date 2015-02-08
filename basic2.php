@@ -58,7 +58,7 @@ include 'inc/header.php'; ?>
 include 'inc/footer.php'; 
 ?>
  <!--Footer End-->   
-<script src="js/config/slickQuiz2-config.js"></script>
+<script src="js/config/basicQuiz_2-config.js"></script>
 
     </body>
 

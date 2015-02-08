@@ -62,25 +62,25 @@
                         <a href="dashboard.php"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
                     </li>
                    <li>
-                        <a href="basic.php"><i class="fa fa-fw fa-book"></i> Basics</a>
+                        <a href="basicHome.php"><i class="fa fa-fw fa-book"></i> Basics</a>
                     </li>
                     <li>
-                        <a href="verbs.php"><i class="fa fa-fw fa-comment"></i> Verbs</a>
+                        <a href="verbsHome.php"><i class="fa fa-fw fa-comment"></i> Verbs</a>
                     </li>
                     <li>
-                        <a href="phrase.php"><i class="fa fa-fw fa-comments"></i> Phrases</a>
+                        <a href="phraseHome.php"><i class="fa fa-fw fa-comments"></i> Phrases</a>
                     </li>
                     <li>
-                        <a href="intermediate.php"><i class="fa fa-fw fa-comment-o"></i> Intermediate</a>
+                        <a href="intermediateHome.php"><i class="fa fa-fw fa-comment-o"></i> Intermediate</a>
                     </li>
                     <li>
-                        <a href="Family.php"><i class="fa fa-fw fa-users"></i> Family</a>
+                        <a href="FamilyHome.php"><i class="fa fa-fw fa-users"></i> Family</a>
                     </li>
                     <li>
-                        <a href="inthehouse.php"><i class="fa fa-fw fa-home"></i> In The Home</a>
+                        <a href="inthehouseHome.php"><i class="fa fa-fw fa-home"></i> In The Home</a>
                     </li>
                     <li>
-                        <a href="advanced.php"><i class="fa fa-fw fa-star-o"></i> Advanced</a>
+                        <a href="advancedHome.php"><i class="fa fa-fw fa-star-o"></i> Advanced</a>
                     </li>
                     <li>
                         <a href="about.php"><i class="fa fa-fw fa-info"></i> About</a>
