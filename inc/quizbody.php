@@ -4,15 +4,15 @@
                             <div class="panel-heading">
                                 <div class="row">
                                     <div class="col-xs-3">
-                                        <i class="fa fa-fw fa-<?php echo $quizIcon1 ?> fa-5x"></i>
+                                        <i class="fa fa-fw fa-<?php echo $quizIcon1; ?> fa-5x"></i>
                                     </div>
                                     <div class="col-xs-9 text-right">
-                                        <div class="huge"><?php echo $quizTitle1 ?></div>
+                                        <div class="huge"><?php echo $quizTitle1; ?></div>
                                         <div>   </div>
                                     </div>
                                 </div>
                             </div>
-                            <a href="<?php echo $quizHref1 ?>">
+                            <a href="<?php echo $quizHref1; ?>">
                                 <div class="panel-footer">
                                     <span class="pull-left">Take a quiz</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -26,15 +26,15 @@
                             <div class="panel-heading">
                                 <div class="row">
                                     <div class="col-xs-3">
-                                        <i class="fa fa-fw fa-<?php echo $quizIcon2 ?> fa-5x"></i>
+                                        <i class="fa fa-fw fa-<?php echo $quizIcon2; ?> fa-5x"></i>
                                     </div>
                                     <div class="col-xs-9 text-right">
-                                        <div class="huge"><?php echo $quizTitle2 ?></div>
+                                        <div class="huge"><?php echo $quizTitle2; ?></div>
                                         <div></div>
                                     </div>
                                 </div>
                             </div>
-                            <a href="<?php echo $quizHref2 ?>">
+                            <a href="<?php echo $quizHref2; ?>">
                                 <div class="panel-footer">
                                     <span class="pull-left">Take a quiz</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -48,15 +48,15 @@
                             <div class="panel-heading">
                                 <div class="row">
                                     <div class="col-xs-3">
-                                        <i class="fa fa-fw fa-<?php echo $quizIcon3 ?> fa-5x"></i>
+                                        <i class="fa fa-fw fa-<?php echo $quizIcon3; ?> fa-5x"></i>
                                     </div>
                                     <div class="col-xs-9 text-right">
-                                        <div class="huge"><?php echo $quizTitle3 ?></div>
+                                        <div class="huge"><?php echo $quizTitle3; ?></div>
                                         <div></div>
                                     </div>
                                 </div>
                             </div>
-                            <a href="<?php echo $quizHref3 ?>">
+                            <a href="<?php echo $quizHref3; ?>">
                                 <div class="panel-footer">
                                     <span class="pull-left">Take a quiz</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -70,15 +70,15 @@
                             <div class="panel-heading">
                                 <div class="row">
                                     <div class="col-xs-3">
-                                        <i class="fa fa-fw fa-<?php echo $quizIcon4 ?> fa-5x"></i>
+                                        <i class="fa fa-fw fa-<?php echo $quizIcon4; ?> fa-5x"></i>
                                     </div>
                                     <div class="col-xs-9 text-right">
-                                        <div class="huge"><?php echo $quizTitle4 ?></div>
+                                        <div class="huge"><?php echo $quizTitle4; ?></div>
                                         <div></div>
                                     </div>
                                 </div>
                             </div>
-                            <a href="<?php echo $quizHref4 ?>">
+                            <a href="<?php echo $quizHref4; ?>">
                                 <div class="panel-footer">
                                     <span class="pull-left">Take a quiz</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>

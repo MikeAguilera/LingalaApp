@@ -1,6 +1,6 @@
 <!--Header Begin-->
 <?php 
-$pageTitle = "Basic Quiz 1";
+$pageTitle = "Basic Quiz 3";
 include 'inc/header.php'; ?>
 <!--Header End-->
 
@@ -17,7 +17,7 @@ include 'inc/header.php'; ?>
                         </h1>
                         <ol class="breadcrumb">
                             <li class="active">
-                                <i class="fa fa-dashboard"></i> Basic Lingala 1
+                                <i class="fa fa-dashboard"></i> Basic Lingala 3
                             </li>
                         </ol>
                     </div>
@@ -27,7 +27,7 @@ include 'inc/header.php'; ?>
  <div class="jumbotron">
                 
              
-        <h1 class="quizName">Basics Quiz 1</h1>
+        <h1 class="quizName">Basics Quiz 3</h1>
 
         <div class="quizArea">
             <div class="quizHeader">
@@ -58,7 +58,7 @@ include 'inc/header.php'; ?>
 include 'inc/footer.php'; 
 ?>
  <!--Footer End-->   
-<script src="<?php BASE_URL; ?>js/config/basicQuiz-config.js"></script>
+<script src="js/config/basicQuiz_2-config.js"></script>
 
     </body>
 
