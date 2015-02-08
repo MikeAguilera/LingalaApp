@@ -62,31 +62,31 @@
                         <a href="dashboard.php"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
                     </li>
                    <li>
-                        <a href="basicHome.php"><i class="fa fa-fw fa-book"></i> Basics</a>
+                        <a href="/LingalaApp/Home/basicHome.php"><i class="fa fa-fw fa-book"></i> Basics</a>
                     </li>
                     <li>
-                        <a href="verbsHome.php"><i class="fa fa-fw fa-comment"></i> Verbs</a>
+                        <a href="/home/verbsHome.php"><i class="fa fa-fw fa-comment"></i> Verbs</a>
                     </li>
                     <li>
-                        <a href="phraseHome.php"><i class="fa fa-fw fa-comments"></i> Phrases</a>
+                        <a href="<?php echo BASE_URL; ?>home/phraseHome.php"><i class="fa fa-fw fa-comments"></i> Phrases</a>
                     </li>
                     <li>
-                        <a href="intermediateHome.php"><i class="fa fa-fw fa-comment-o"></i> Intermediate</a>
+                        <a href="<?php echo BASE_URL; ?>home/intermediateHome.php"><i class="fa fa-fw fa-comment-o"></i> Intermediate</a>
                     </li>
                     <li>
-                        <a href="FamilyHome.php"><i class="fa fa-fw fa-users"></i> Family</a>
+                        <a href="<?php echo BASE_URL; ?>home/FamilyHome.php"><i class="fa fa-fw fa-users"></i> Family</a>
                     </li>
                     <li>
-                        <a href="inthehouseHome.php"><i class="fa fa-fw fa-home"></i> In The Home</a>
+                        <a href="<?php echo BASE_URL; ?>home/inthehouseHome.php"><i class="fa fa-fw fa-home"></i> In The Home</a>
                     </li>
                     <li>
-                        <a href="advancedHome.php"><i class="fa fa-fw fa-star-o"></i> Advanced</a>
+                        <a href="<?php echo BASE_URL; ?>home/advancedHome.php"><i class="fa fa-fw fa-star-o"></i> Advanced</a>
                     </li>
                     <li>
-                        <a href="about.php"><i class="fa fa-fw fa-info"></i> About</a>
+                        <a href="<?php echo BASE_URL; ?>about.php"><i class="fa fa-fw fa-info"></i> About</a>
                     </li>
                     <li>
-                        <a href="contact.php"><i class="fa fa-fw fa-envelope"></i> Contact Me</a>
+                        <a href="<?php echo BASE_URL; ?>contact.php"><i class="fa fa-fw fa-envelope"></i> Contact Me</a>
                     </li>
                 </ul>
             </div>
