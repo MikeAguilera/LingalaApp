@@ -1,20 +1,20 @@
 <!--Header Begin-->
 <?php 
-require_once('/LingalaApp/inc/config.php');
-$pageTitle = "Basic Quiz";
-$quizTitle1 = "Quiz 1";
-$quizTitle2 = "Quiz 2";
-$quizTitle3 = "Quiz 3";
-$quizTitle4 = "Quiz 4";
-$quizIcon1 = "book";
-$quizIcon2 = "comment";
-$quizIcon3 = "comments";
-$quizIcon4 = "comment-o";
-$quizHref1 = "basic.php";
-$quizHref2 = "basic2.php";
-$quizHref3 = "basic3.php";
-$quizHref4 = "basic4.php";
-include('/LingalaApp/inc/header.php');
+require_once('../inc/config.php');
+$pageTitle = 'Basic Quiz';
+$quizTitle1 = 'Quiz 1';
+$quizTitle2 = 'Quiz 2';
+$quizTitle3 = 'Quiz 3';
+$quizTitle4 = 'Quiz 4';
+$quizIcon1 = 'book';
+$quizIcon2 = 'comment';
+$quizIcon3 = 'comments';
+$quizIcon4 = 'comment-o';
+$quizHref1 = '../basic.php';
+$quizHref2 = '../basic2.php';
+$quizHref3 = '../basic3.php';
+$quizHref4 = '../basic4.php';
+include(ROOT_PATH . 'inc/header.php');
 ?>
 <!--Header End-->
 
@@ -48,7 +48,7 @@ include('/LingalaApp/inc/header.php');
 
     <!--Quiz Body Begin-->
     <?php
-    include('/LingalaApp/inc/quizbody.php');
+    include(ROOT_PATH . 'inc/quizbody.php');
     ?>
     <!--Quiz Body End-->   
     
@@ -57,10 +57,10 @@ include('/LingalaApp/inc/header.php');
 
 <!--Footer Begin-->
 
-<?php include('/LingalaApp/inc/footer.php') ?>
+<?php include(ROOT_PATH . 'inc/footer.php') ?>
 
  <!--Footer End-->   
- <script src="/LingalaApp/js/config/basicQuiz-config.js"></script>    
+ <!--<script src="<?php ROOT_PATH; ?>js/config/basicQuiz-config.js"></script>-->    
     </body>
 
 

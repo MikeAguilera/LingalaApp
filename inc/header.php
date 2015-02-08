@@ -1,3 +1,8 @@
+<?php
+    require_once('config.php');
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,21 +18,21 @@
     <title><?php echo $pageTitle; ?></title>
 
         <!--<link href="css/reset.css" media="screen" rel="stylesheet" type="text/css">-->
-        <link href="css/slickQuiz.css" media="screen" rel="stylesheet" type="text/css">
+        <link href="<?php echo BASE_URL; ?>css/slickQuiz.css" media="screen" rel="stylesheet" type="text/css">
         <!--<link href="css/master.css" media="screen" rel="stylesheet" type="text/css">-->
 <!--From Lingala App End-->
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo BASE_URL; ?>css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/sb-admin.css" rel="stylesheet">
+    <link href="<?php echo BASE_URL; ?>css/sb-admin.css" rel="stylesheet">
 
     <!-- Morris Charts CSS -->
-    <link href="css/plugins/morris.css" rel="stylesheet">
+    <link href="<?php echo BASE_URL; ?>css/plugins/morris.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo BASE_URL; ?>font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -62,25 +67,25 @@
                         <a href="dashboard.php"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
                     </li>
                    <li>
-                        <a href="/LingalaApp/Home/basicHome.php"><i class="fa fa-fw fa-book"></i> Basics</a>
+                        <a href="<?php echo BASE_URL; ?>Home/basicHome.php"><i class="fa fa-fw fa-book"></i> Basics</a>
                     </li>
                     <li>
-                        <a href="/home/verbsHome.php"><i class="fa fa-fw fa-comment"></i> Verbs</a>
+                        <a href="<?php echo BASE_URL; ?>Home/verbsHome.php"><i class="fa fa-fw fa-comment"></i> Verbs</a>
                     </li>
                     <li>
-                        <a href="<?php echo BASE_URL; ?>home/phraseHome.php"><i class="fa fa-fw fa-comments"></i> Phrases</a>
+                        <a href="<?php echo BASE_URL; ?>Home/phraseHome.php"><i class="fa fa-fw fa-comments"></i> Phrases</a>
                     </li>
                     <li>
-                        <a href="<?php echo BASE_URL; ?>home/intermediateHome.php"><i class="fa fa-fw fa-comment-o"></i> Intermediate</a>
+                        <a href="<?php echo BASE_URL; ?>Home/intermediateHome.php"><i class="fa fa-fw fa-comment-o"></i> Intermediate</a>
                     </li>
                     <li>
-                        <a href="<?php echo BASE_URL; ?>home/FamilyHome.php"><i class="fa fa-fw fa-users"></i> Family</a>
+                        <a href="<?php echo BASE_URL; ?>Home/FamilyHome.php"><i class="fa fa-fw fa-users"></i> Family</a>
                     </li>
                     <li>
-                        <a href="<?php echo BASE_URL; ?>home/inthehouseHome.php"><i class="fa fa-fw fa-home"></i> In The Home</a>
+                        <a href="<?php echo BASE_URL; ?>Home/inthehouseHome.php"><i class="fa fa-fw fa-home"></i> In The Home</a>
                     </li>
                     <li>
-                        <a href="<?php echo BASE_URL; ?>home/advancedHome.php"><i class="fa fa-fw fa-star-o"></i> Advanced</a>
+                        <a href="<?php echo BASE_URL; ?>Home/advancedHome.php"><i class="fa fa-fw fa-star-o"></i> Advanced</a>
                     </li>
                     <li>
                         <a href="<?php echo BASE_URL; ?>about.php"><i class="fa fa-fw fa-info"></i> About</a>
