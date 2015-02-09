@@ -62,25 +62,25 @@
                         <a href="<?php echo BASE_URL; ?>dashboard.php"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
                     </li>
                    <li>
-                        <a href="<?php echo BASE_URL; ?>Home/basicHome.php"><i class="fa fa-fw fa-book"></i> Basics</a>
+                        <a href="<?php echo BASE_URL; ?>basic/index.php"><i class="fa fa-fw fa-book"></i> Basics</a>
                     </li>
                     <li>
-                        <a href="<?php echo BASE_URL; ?>Home/verbsHome.php"><i class="fa fa-fw fa-comment"></i> Verbs</a>
+                        <a href="<?php echo BASE_URL; ?>verbs/index.php"><i class="fa fa-fw fa-comment"></i> Verbs</a>
                     </li>
                     <li>
-                        <a href="<?php echo BASE_URL; ?>Home/phraseHome.php"><i class="fa fa-fw fa-comments"></i> Phrases</a>
+                        <a href="<?php echo BASE_URL; ?>phrases/index.php"><i class="fa fa-fw fa-comments"></i> Phrases</a>
                     </li>
                     <li>
-                        <a href="<?php echo BASE_URL; ?>Home/intermediateHome.php"><i class="fa fa-fw fa-comment-o"></i> Intermediate</a>
+                        <a href="<?php echo BASE_URL; ?>intermediate/index.php"><i class="fa fa-fw fa-comment-o"></i> Intermediate</a>
                     </li>
                     <li>
-                        <a href="<?php echo BASE_URL; ?>Home/FamilyHome.php"><i class="fa fa-fw fa-users"></i> Family</a>
+                        <a href="<?php echo BASE_URL; ?>family/index.php"><i class="fa fa-fw fa-users"></i> Family</a>
                     </li>
                     <li>
-                        <a href="<?php echo BASE_URL; ?>Home/inthehouseHome.php"><i class="fa fa-fw fa-home"></i> In The Home</a>
+                        <a href="<?php echo BASE_URL; ?>inthehome/index.php"><i class="fa fa-fw fa-home"></i> In The Home</a>
                     </li>
                     <li>
-                        <a href="<?php echo BASE_URL; ?>Home/advancedHome.php"><i class="fa fa-fw fa-star-o"></i> Advanced</a>
+                        <a href="<?php echo BASE_URL; ?>advanced/index.php"><i class="fa fa-fw fa-star-o"></i> Advanced</a>
                     </li>
                     <li>
                         <a href="<?php echo BASE_URL; ?>about.php"><i class="fa fa-fw fa-info"></i> About</a>

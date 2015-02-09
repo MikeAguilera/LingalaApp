@@ -1,8 +1,8 @@
 <!--Header Begin-->
 <?php 
-$pageTitle = "Basic Quiz 3";
-require_once('inc/config.php'); 
-include(ROOT_PATH . 'inc/header.php'); ?>
+require_once('../inc/config.php'); 
+include(ROOT_PATH . 'inc/header.php');
+$pageTitle = "Basic Quiz 2";?>
 <!--Header End-->
 
 
@@ -18,7 +18,7 @@ include(ROOT_PATH . 'inc/header.php'); ?>
                         </h1>
                         <ol class="breadcrumb">
                             <li class="active">
-                                <i class="fa fa-dashboard"></i> Basic Lingala 3
+                                <i class="fa fa-dashboard"></i> Basic Lingala 2
                             </li>
                         </ol>
                     </div>
@@ -28,7 +28,7 @@ include(ROOT_PATH . 'inc/header.php'); ?>
  <div class="jumbotron">
                 
              
-        <h1 class="quizName">Basics Quiz 3</h1>
+        <h1 class="quizName">Basics Quiz 2</h1>
 
         <div class="quizArea">
             <div class="quizHeader">
@@ -59,7 +59,7 @@ include(ROOT_PATH . 'inc/header.php'); ?>
 <?php include(ROOT_PATH . 'inc/footer.php') ?>
 
  <!--Footer End-->   
-<script src="js/config/basicQuiz_3-config.js"></script>
+<script src="../js/config/basic/basicQuiz_2-config.js"></script>
 
     </body>
 

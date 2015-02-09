@@ -3,14 +3,14 @@
 require_once('inc/config.php'); 
 include(ROOT_PATH . 'inc/header.php');
 $pageTitle = "Learn Lingala";
-$quizHref1 = BASE_URL . "/home/basicHome.php";
-$quizHref2 = '../basic2.php';
-$quizHref3 = '../basic3.php';
-$quizHref4 = '../basic4.php';
-$quizHref5 = '../basic.php';
-$quizHref6 = '../basic2.php';
-$quizHref7 = '../basic3.php';
-$quizHref8 = '../basic4.php';?>
+$quizHref1 = BASE_URL . "/basic/index.php";
+$quizHref2 = BASE_URL . "/verbs/index.php";
+$quizHref3 = BASE_URL . "/phrases/index.php";
+$quizHref4 = BASE_URL . "/intermediate/index.php";
+$quizHref5 = BASE_URL . "/family/index.php";
+$quizHref6 = BASE_URL . "/inthehome/index.php";
+$quizHref7 = BASE_URL . "/advanced/index.php";
+$quizHref8 = BASE_URL . "/home/basicHome.php";?>
 <!--Header End-->
 
 
@@ -115,7 +115,7 @@ $quizHref8 = '../basic4.php';?>
                                         <i class="fa fa-fw fa-comment-o fa-5x"></i>
                                     </div>
                                     <div class="col-xs-9 text-right">
-                                        <div class="huge">Medium</div>
+                                        <div class="huge" style="font-size:2em;">Intermediate</div>
                                         <div></div>
                                     </div>
                                 </div>
@@ -163,7 +163,7 @@ $quizHref8 = '../basic4.php';?>
                                         <i class="fa fa-fw fa-home fa-5x"></i>
                                     </div>
                                     <div class="col-xs-9 text-right">
-                                        <div class="huge">At Home</div>
+                                        <div class="huge" style="font-size:2em;">At Home</div>
                                         <div></div>
                                     </div>
                                 </div>
@@ -185,7 +185,7 @@ $quizHref8 = '../basic4.php';?>
                                         <i class="fa fa-fw fa-star-o fa-5x"></i>
                                     </div>
                                     <div class="col-xs-9 text-right">
-                                        <div class="huge">Adv.</div>
+                                        <div class="huge" style="font-size:2em;">Advanced</div>
                                         <div></div>
                                     </div>
                                 </div>
@@ -207,7 +207,7 @@ $quizHref8 = '../basic4.php';?>
                                         <i class="fa fa-fw fa-envelope fa-5x"></i>
                                     </div>
                                     <div class="col-xs-9 text-right">
-                                        <div class="huge">Email Me</div>
+                                        <div class="huge" style="font-size:2em;">Email Me</div>
                                         <div></div>
                                     </div>
                                 </div>

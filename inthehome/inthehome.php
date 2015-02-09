@@ -1,8 +1,7 @@
 <!--Header Begin-->
 <?php 
-require_once('inc/config.php'); 
-include(ROOT_PATH . 'inc/header.php');
-$pageTitle = "Basic Quiz 2";?>
+$pageTitle = "In The Home Quiz";
+include 'inc/header.php'; ?>
 <!--Header End-->
 
 
@@ -14,11 +13,11 @@ $pageTitle = "Basic Quiz 2";?>
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
-                            Basic <small></small>
+                            In The Home <small> Lingala Quiz - In The Home</small>
                         </h1>
                         <ol class="breadcrumb">
                             <li class="active">
-                                <i class="fa fa-dashboard"></i> Basic Lingala 2
+                                <i class="fa fa-comments"></i> In The Home
                             </li>
                         </ol>
                     </div>
@@ -28,7 +27,7 @@ $pageTitle = "Basic Quiz 2";?>
  <div class="jumbotron">
                 
              
-        <h1 class="quizName">Basics Quiz 2</h1>
+        <h1 class="quizName">In The Home</h1>
 
         <div class="quizArea">
             <div class="quizHeader">
@@ -54,13 +53,15 @@ $pageTitle = "Basic Quiz 2";?>
 </div>
 
 
+   
 <!--Footer Begin-->
+<?php
+include 'inc/footer.php'; 
+?>
+ <!--Footer End-->
 
-<?php include(ROOT_PATH . 'inc/footer.php') ?>
-
- <!--Footer End-->   
-<script src="js/config/basicQuiz_2-config.js"></script>
-
+<script src="js/config/inthehouseQuiz-config.js"></script>
+    
     </body>
 
 

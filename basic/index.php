@@ -1,19 +1,20 @@
 <!--Header Begin-->
 <?php 
-$pageTitle = "Basic Quiz";
-$quizTitle1 = "Quiz 1";
-$quizTitle2 = "Quiz 2";
-$quizTitle3 = "Quiz 3";
-$quizTitle4 = "Quiz 4";
-$quizIcon1 = "book";
-$quizIcon2 = "comment";
-$quizIcon3 = "comments";
-$quizIcon4 = "comment-o";
-$quizHref1 = "basic.php";
-$quizHref2 = "basic2.php";
-$quizHref3 = "basic3.php";
-$quizHref4 = "basic4.php";
-include 'inc/header.php'; 
+require_once('../inc/config.php');
+$pageTitle = 'Basic Quizes';
+$quizTitle1 = 'Quiz 1';
+$quizTitle2 = 'Quiz 2';
+$quizTitle3 = 'Quiz 3';
+$quizTitle4 = 'Quiz 4';
+$quizIcon1 = 'book';
+$quizIcon2 = 'comment';
+$quizIcon3 = 'comments';
+$quizIcon4 = 'comment-o';
+$quizHref1 = '../basic/basic.php';
+$quizHref2 = '../basic/basic2.php';
+$quizHref3 = '../basic/basic3.php';
+$quizHref4 = '../basic/basic4.php';
+include(ROOT_PATH . 'inc/header.php');
 ?>
 <!--Header End-->
 
@@ -26,7 +27,7 @@ include 'inc/header.php';
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
-                            Basic <small></small>
+                            Basics <small></small>
                         </h1>
                         <ol class="breadcrumb">
                             <li class="active">
@@ -41,13 +42,13 @@ include 'inc/header.php';
                 
              
         <h1>Basic Quizes</h1>
-        <p>This is a great place to begin!</p>  
+        <p>This is a great place to start!</p>  
         
     </div>
 
     <!--Quiz Body Begin-->
     <?php
-    include 'inc/quizbody.php'; 
+    include(ROOT_PATH . 'inc/quizbody.php');
     ?>
     <!--Quiz Body End-->   
     
@@ -55,11 +56,11 @@ include 'inc/header.php';
 </div>
 
 <!--Footer Begin-->
-<?php
-include 'inc/footer.php'; 
-?>
+
+<?php include(ROOT_PATH . 'inc/footer.php') ?>
+
  <!--Footer End-->   
- <script src="js/config/basicQuiz-config.js"></script>    
+ <!--<script src="<?php ROOT_PATH; ?>js/config/basicQuiz-config.js"></script>-->    
     </body>
 
 

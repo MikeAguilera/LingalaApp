@@ -1,7 +1,7 @@
 <!--Header Begin-->
 <?php 
-require_once('inc/config.php');
-$pageTitle = "Verb Quiz 1";    
+require_once('../inc/config.php');
+$pageTitle = "Basic Quiz 1";    
 include(ROOT_PATH . 'inc/header.php');?>
 <!--Header End-->
 
@@ -14,11 +14,11 @@ include(ROOT_PATH . 'inc/header.php');?>
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
-                            Verbs <small></small>
+                            Basic <small></small>
                         </h1>
                         <ol class="breadcrumb">
                             <li class="active">
-                                <i class="fa fa-dashboard"></i> Lingala Verbs 1
+                                <i class="fa fa-dashboard"></i> Basic Lingala 1
                             </li>
                         </ol>
                     </div>
@@ -28,7 +28,7 @@ include(ROOT_PATH . 'inc/header.php');?>
  <div class="jumbotron">
                 
              
-        <h1 class="quizName">Verbs Quiz 1</h1>
+        <h1 class="quizName">Basics Quiz 1</h1>
 
         <div class="quizArea">
             <div class="quizHeader">
@@ -59,7 +59,7 @@ include(ROOT_PATH . 'inc/header.php');?>
 <?php include(ROOT_PATH . 'inc/footer.php') ?>
 
  <!--Footer End-->   
-<script src="<?php BASE_URL; ?>js/config/verbQuiz-config.js"></script>
+<script src="../js/config/basic/basicQuiz-config.js"></script>
 
     </body>
 
