@@ -107,7 +107,7 @@ include(ROOT_PATH . 'inc/header.php'); ?>
                                         <i class="fa fa-fw fa-comment-o fa-5x"></i>
                                     </div>
                                     <div class="col-xs-9 text-right">
-                                        <div class="huge">Intermediate</div>
+                                        <div class="huge">Medium</div>
                                         <div></div>
                                     </div>
                                 </div>
@@ -155,7 +155,7 @@ include(ROOT_PATH . 'inc/header.php'); ?>
                                         <i class="fa fa-fw fa-home fa-5x"></i>
                                     </div>
                                     <div class="col-xs-9 text-right">
-                                        <div class="huge">In The Home</div>
+                                        <div class="huge">At Home</div>
                                         <div></div>
                                     </div>
                                 </div>
@@ -177,7 +177,7 @@ include(ROOT_PATH . 'inc/header.php'); ?>
                                         <i class="fa fa-fw fa-star-o fa-5x"></i>
                                     </div>
                                     <div class="col-xs-9 text-right">
-                                        <div class="huge">Advanced</div>
+                                        <div class="huge">Adv.</div>
                                         <div></div>
                                     </div>
                                 </div>
@@ -199,14 +199,14 @@ include(ROOT_PATH . 'inc/header.php'); ?>
                                         <i class="fa fa-fw fa-envelope fa-5x"></i>
                                     </div>
                                     <div class="col-xs-9 text-right">
-                                        <div class="huge">Contact Us</div>
+                                        <div class="huge">Email Me</div>
                                         <div></div>
                                     </div>
                                 </div>
                             </div>
                             <a href="contact.php">
                                 <div class="panel-footer">
-                                    <span class="pull-left">Email Us!</span>
+                                    <span class="pull-left">Contact Me!</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                                     <div class="clearfix"></div>
                                 </div>
