@@ -1,7 +1,8 @@
 <!--Header Begin-->
 <?php 
 $pageTitle = "Learn Lingala";
-include 'inc/header.php'; ?>
+require_once('inc/config.php'); 
+include(ROOT_PATH . 'inc/header.php'); ?>
 <!--Header End-->
 
 
@@ -34,10 +35,10 @@ include 'inc/header.php'; ?>
 
 
 <!--Footer Begin-->
-<?php
-include 'inc/footer.php'; 
-?>
- <!--Footer End-->
+
+<?php include(ROOT_PATH . 'inc/footer.php') ?>
+
+ <!--Footer End-->  
     
     </body>
 

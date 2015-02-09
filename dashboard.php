@@ -1,8 +1,16 @@
 <!--Header Begin-->
 <?php 
-$pageTitle = "Learn Lingala";
 require_once('inc/config.php'); 
-include(ROOT_PATH . 'inc/header.php'); ?>
+include(ROOT_PATH . 'inc/header.php');
+$pageTitle = "Learn Lingala";
+$quizHref1 = BASE_URL . "/home/basicHome.php";
+$quizHref2 = '../basic2.php';
+$quizHref3 = '../basic3.php';
+$quizHref4 = '../basic4.php';
+$quizHref5 = '../basic.php';
+$quizHref6 = '../basic2.php';
+$quizHref7 = '../basic3.php';
+$quizHref8 = '../basic4.php';?>
 <!--Header End-->
 
 
@@ -46,7 +54,7 @@ include(ROOT_PATH . 'inc/header.php'); ?>
                                     </div>
                                 </div>
                             </div>
-                            <a href="basic.php">
+                            <a href="<?php echo $quizHref1; ?>">
                                 <div class="panel-footer">
                                     <span class="pull-left">Take a quiz</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
