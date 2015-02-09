@@ -38,7 +38,7 @@ include(ROOT_PATH . 'inc/header.php'); ?>
 
 <?php include(ROOT_PATH . 'inc/footer.php') ?>
 
- <!--Footer End-->  
+<!--Footer End--> 
     
     </body>
 
