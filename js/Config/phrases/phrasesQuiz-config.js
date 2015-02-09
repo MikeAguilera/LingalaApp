@@ -15,114 +15,116 @@ var basicJSON = {
     },
     "questions": [
         { // Question 1 - Multiple Choice, Single True Answer
-            "q": "What is the Lingala phrase for run?",
+            "q": "Did you see?",
             "a": [
-                {"option": "Mbuma ya pomme",    "correct": true},
-                {"option": "Mbuma ya lait",     "correct": false},
-                {"option": "Mbuma ya fromage",  "correct": false},
-                {"option": "Mbuma ya manzana",     "correct": false} // no comma here
+                {"option": "Ozali komona",    "correct": false},
+                {"option": "Omonaki",     "correct": true},
+                {"option": "Tala motuka",  "correct": false},
+                {"option": "Tala!",     "correct": false} // no comma here
             ],
             "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span> Better luck next time <em></em></p>" // no comma here
+            "incorrect": "<p><span>Uhh no.</span> The correct answere is <em>Omonaki</em>.</p>" // no comma here
         },
         { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
-            "q": "What is the Lingala phrase for walk?",
+            "q": "Do you see?",
             "a": [
-                {"option": "Wanna Poke",   "correct": false},
-                {"option": "Mwana Moke",   "correct": true},
-                {"option": "Mwana Pomme",  "correct": false},
-                {"option": "Wanna Moke",   "correct": false} // no comma here
+                {"option": "Tala moto oyo",   "correct": false},
+                {"option": "Komo awa",   "correct": false},
+                {"option": "Telema!",  "correct": false},
+                {"option": "Ozali komona",   "correct": true} // no comma here
             ],
             "select_any": true,
-            "correct": "<p><span>Nice!</span> Yes! That is correct. Baby in Lingala ia Mwana Moke!</p>",
-            "incorrect": "<p><span>Hmmm.</span> Nice try. </p>" // no comma here
+            "correct": "<p><span>Nice!</span> Yes! That is correct!</p>",
+            "incorrect": "<p><span>Hmmm.</span> Nice try. The correct answere is <em>Ozali komona</em>.</p>" // no comma here
         },
         { // Question 3 - Multiple Choice, Multiple True Answers, Select All
-            "q": "What is the Lingala phrase for sit?",
+            "q": "Look at this person",
             "a": [
-                {"option": "Pokwa",  "correct": false},
-                {"option": "Eyano",  "correct": false},
-                {"option": "Etabe",  "correct": false},
-                {"option": "Emobobelo Misolo",  "correct": true} // no comma here
+                {"option": "Tala moto oyo",  "correct": true},
+                {"option": "Tala motuka",  "correct": false},
+                {"option": "Seka!",  "correct": false},
+                {"option": "Tala!",  "correct": false} // no comma here
             ],
             "correct": "<p><span>Brilliant!</span> You're seriously a genius.</p>",
-            "incorrect": "<p><span>Not Quite.</span> But nice try.</p>" // no comma here
+            "incorrect": "<p><span>Not Quite.</span> But nice try. The correct answere is <em>Tala moto oyo</em>.</p>" // no comma here
         },
         { // Question 4
-            "q": "What is the Lingala phrase for swim?",
+            "q": "Look!",
             "a": [
-                {"option": "Maswa",    "correct": false},
-                {"option": "Mwana mobali", "correct": true},
-                {"option": "Lipa",      "correct": false},
-                {"option": "Manteka",   "correct": false} // no comma here
+                {"option": "Tala!",    "correct": true},
+                {"option": "Seka!", "correct": false},
+                {"option": "Lipa!",      "correct": false},
+                {"option": "Manteka!",   "correct": false} // no comma here
             ],
             "correct": "<p><span>Holy bananas!</span> I didn't actually expect you to know that! Correct!</p>",
-            "incorrect": "<p><span>Fail.</span> Sorry. You lose.</p>" // no comma here
+            "incorrect": "<p><span>Fail.</span> Sorry. The correct answere is <em>Tala!</em>.</p>" // no comma here
         },
         { // Question 5
-            "q": "What is the Lingala phrase for fly?",
+            "q": "Look at the car.",
             "a": [
-                {"option": "Mokanda",    "correct": false},
-                {"option": "Motuka",     "correct": true} // no comma here
+                {"option": "Tala mokanda",    "correct": false},
+                {"option": "Tala motuka",    "correct": true},
+                {"option": "Tala mbuma",    "correct": false},
+                {"option": "Tala mai",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Good Job!</span> You must be very observant!</p>",
-            "incorrect": "<p><span>ERRRR!</span></p>" // no comma here
+            "incorrect": "<p><span>ERRRR!</span>The correct answere is <em>Tala motuka</em>.</p>" // no comma here
         }, 
         { // Question 6 - Multiple Choice, Single True Answer
-            "q": "What is the Lingala phrase for hug?",
+            "q": "Write here.",
             "a": [
-                {"option": "Mama",    "correct": true},
-                {"option": "Mbuma",     "correct": false},
-                {"option": "Mai",  "correct": false},
-                {"option": "Mwama",     "correct": false} // no comma here
+                {"option": "Komo moke",    "correct": false},
+                {"option": "Komo awa",     "correct": true},
+                {"option": "Komo mai",  "correct": false},
+                {"option": "Komo mwama",     "correct": false} // no comma here
             ],
             "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span> Better luck next time <em></em></p>" // no comma here
+            "incorrect": "<p><span>Uhh no.</span> Better luck next time. The correct answere is <em>Komo awa</em>.</p>" // no comma here
         },
         { // Question 7 - Multiple Choice, Multiple True Answers, Select Any
-            "q": "What is the Lingala phrase for eat?",
+            "q": "Sleep!",
             "a": [
-                {"option": "Papi",   "correct": false},
-                {"option": "Papa",   "correct": true},
-                {"option": "Mwana",  "correct": false},
-                {"option": "Moke",   "correct": false} // no comma here
+                {"option": "Lala pongi!, papi",   "correct": false},
+                {"option": "Lala pongi!, papa",   "correct": false},
+                {"option": "Lala pongi!, mwana",  "correct": false},
+                {"option": "Lala pongi!, lala",   "correct": true} // no comma here
             ],
             "select_any": true,
-            "correct": "<p><span>Nice!</span> Yes! That is correct. Baby in Lingala ia Mwana Moke!</p>",
-            "incorrect": "<p><span>Hmmm.</span> Nice try. </p>" // no comma here
+            "correct": "<p><span>Nice!</span> Yes! That is correct!</p>",
+            "incorrect": "<p><span>Hmmm.</span> Nice try. The correct answere is <em>Lala pongi!, lala</em>.</p>" // no comma here
         },
         { // Question 8 - Multiple Choice, Multiple True Answers, Select All
-            "q": "What is the Lingala phrase for sleep?",
+            "q": "Go to sleep on the bed.",
             "a": [
-                {"option": "Pokwa",  "correct": false},
-                {"option": "Mwana Mobali",  "correct": false},
-                {"option": "Mwana Mwasi",  "correct": true},
-                {"option": "Emobobelo Misolo",  "correct": false} // no comma here
+                {"option": "Kende kolala na mbetu",  "correct": true},
+                {"option": "Kende kolala na mobali",  "correct": false},
+                {"option": "Kende kolala na mwasi",  "correct": false},
+                {"option": "Kende kolala na misolo",  "correct": false} // no comma here
             ],
             "correct": "<p><span>Brilliant!</span> You're seriously a genius.</p>",
-            "incorrect": "<p><span>Not Quite.</span> But nice try.</p>" // no comma here
+            "incorrect": "<p><span>Not Quite.</span> But nice try. The correct answere is <em>Kende kolala na mbetu</em>.</p>" // no comma here
         },
         { // Question 9
-            "q": "What is the Lingala phrase for wake up?",
+            "q": "Stand up!",
             "a": [
-                {"option": "Maswa",    "correct": false},
-                {"option": "Mwana mobali", "correct": true},
-                {"option": "Lipa",      "correct": false},
-                {"option": "Manteka",   "correct": false} // no comma here
+                {"option": "Maswa!",    "correct": false},
+                {"option": "Mwana mobali!", "correct": false},
+                {"option": "Lipa!",      "correct": false},
+                {"option": "Telema!",   "correct": true} // no comma here
             ],
             "correct": "<p><span>Holy bananas!</span> I didn't actually expect you to know that! Correct!</p>",
-            "incorrect": "<p><span>Fail.</span> Sorry. You lose.</p>" // no comma here
+            "incorrect": "<p><span>Fail.</span> Sorry. The correct answere is <em>Telema!</em>.</p>" // no comma here
         },
         { // Question 10
-            "q": "What is the Lingala phrase for sing?",
+            "q": "Laugh!",
             "a": [
-                {"option": "Lait",    "correct": false},
-                {"option": "Motuka",    "correct": false},
-                {"option": "Mokanda",    "correct": false},
-                {"option": "Alingi",     "correct": true} // no comma here
+                {"option": "Lait!",    "correct": false},
+                {"option": "Seka!",    "correct": true},
+                {"option": "Mokanda!",    "correct": false},
+                {"option": "Alingi!",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Good Job!</span> You must be very observant!</p>",
-            "incorrect": "<p><span>ERRRR!</span></p>" // no comma here
+            "incorrect": "<p><span>ERRRR!</span>The correct answere is <em>Seka!</em>.</p>" // no comma here
         } // no comma here
     ]
 };
