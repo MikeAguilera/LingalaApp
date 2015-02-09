@@ -26,7 +26,7 @@ include(ROOT_PATH . 'inc/header.php'); ?>
                 <!-- /.row -->
 
 <div class="jumbotron">
-    <h1>Contact Us</h1>
+    <h1>Contact Me</h1>
     <p>If you have a quiz to suggest please email me. </p>
     <a href="mailto:michael.aguilera@gmail.com" class="btn btn-success">Email Me</a>
 </div>

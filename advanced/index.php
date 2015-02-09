@@ -10,10 +10,10 @@ $quizIcon1 = 'book';
 $quizIcon2 = 'comment';
 $quizIcon3 = 'comments';
 $quizIcon4 = 'comment-o';
-$quizHref1 = '../advanced.php';
-$quizHref2 = '../advanced2.php';
-$quizHref3 = '../advanced3.php';
-$quizHref4 = '../advanced4.php';
+$quizHref1 = '../advanced/advanced.php';
+$quizHref2 = '../advanced/advanced2.php';
+$quizHref3 = '../advanced/advanced3.php';
+$quizHref4 = '../advanced/advanced4.php';
 include(ROOT_PATH . 'inc/header.php');
 ?>
 <!--Header End-->
@@ -60,7 +60,7 @@ include(ROOT_PATH . 'inc/header.php');
 <?php include(ROOT_PATH . 'inc/footer.php') ?>
 
  <!--Footer End-->   
- <!--<script src="<?php ROOT_PATH; ?>js/config/basicQuiz-config.js"></script>-->    
+  
     </body>
 
 

@@ -59,7 +59,7 @@ include(ROOT_PATH . 'inc/header.php');?>
 <?php include(ROOT_PATH . 'inc/footer.php') ?>
 
  <!--Footer End-->   
-<script src="../js/config/basic/basicQuiz-config.js"></script>
+<script src="../js/Config/basic/basicQuiz-config.js"></script>
 
     </body>
 

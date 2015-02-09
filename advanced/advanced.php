@@ -1,7 +1,8 @@
 <!--Header Begin-->
 <?php 
-$pageTitle = "Advanced Quiz";
-include 'inc/header.php'; ?>
+$pageTitle = "Advanced Quiz 1";
+require_once('../inc/config.php');
+include(ROOT_PATH . 'inc/header.php'); ?>
 <!--Header End-->
 
 
@@ -53,13 +54,13 @@ include 'inc/header.php'; ?>
 </div>
 
 <!--Footer Begin-->
-<?php
-include 'inc/footer.php'; 
-?>
- <!--Footer End-->
 
-<script src="js/config/advancedQuiz-config.js"></script>
-    
+<?php include(ROOT_PATH . 'inc/footer.php') ?>
+
+ <!--Footer End--> 
+
+<script src="../js/Config/advanced/advancedQuiz-config.js"></script>
+     
     </body>
 
 

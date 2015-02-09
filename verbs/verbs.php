@@ -1,7 +1,8 @@
 <!--Header Begin-->
 <?php 
-$pageTitle = "Verbs Quiz";
-include 'inc/header.php'; ?>
+$pageTitle = "Verbs Quiz 1";
+require_once('../inc/config.php');
+include(ROOT_PATH . 'inc/header.php'); ?>
 <!--Header End-->
 
 <div id="page-wrapper">
@@ -53,12 +54,12 @@ include 'inc/header.php'; ?>
 
 
 <!--Footer Begin-->
-<?php
-include 'inc/footer.php'; 
-?>
- <!--Footer End-->
 
-<script src="js/config/verbQuiz-config.js"></script>
+<?php include(ROOT_PATH . 'inc/footer.php') ?>
+
+ <!--Footer End-->   
+
+<script src="../js/Config/verbs/verbQuiz-config.js"></script>
     
     </body>
 

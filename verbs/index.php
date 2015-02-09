@@ -1,7 +1,8 @@
 <!--Header Begin-->
 <?php 
+$pageTitle = 'Verb Quizes';
 require_once('../inc/config.php');
-$pageTitle = 'Verb Quiz';
+include(ROOT_PATH . 'inc/header.php');
 $quizTitle1 = 'Quiz 1';
 $quizTitle2 = 'Quiz 2';
 $quizTitle3 = 'Quiz 3';
@@ -10,12 +11,10 @@ $quizIcon1 = 'book';
 $quizIcon2 = 'comment';
 $quizIcon3 = 'comments';
 $quizIcon4 = 'comment-o';
-$quizHref1 = '../verbs.php';
-$quizHref2 = '../verbs2.php';
-$quizHref3 = '../verbs3.php';
-$quizHref4 = '../verbs4.php';
-include(ROOT_PATH . 'inc/header.php');
-?>
+$quizHref1 = '../verbs/verbs.php';
+$quizHref2 = '../verbs/verbs2.php';
+$quizHref3 = '../verbs/verbs3.php';
+$quizHref4 = '../verbs/verbs4.php'; ?>
 <!--Header End-->
 
 
@@ -59,8 +58,7 @@ include(ROOT_PATH . 'inc/header.php');
 
 <?php include(ROOT_PATH . 'inc/footer.php') ?>
 
- <!--Footer End-->   
- <!--<script src="<?php ROOT_PATH; ?>js/config/basicQuiz-config.js"></script>-->    
+<!--Footer End-->   
     </body>
 
 

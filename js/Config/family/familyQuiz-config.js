@@ -4,8 +4,8 @@
 
 var basicJSON = {
     "info": {
-        "name":    "Family Test",
-        "main":    "<p> This is the Family Quiz</p>",
+        "name":    "Family Quiz 1",
+        "main":    "<p> This is the Intermediate Quiz</p>",
         "results": "<h5>Take another quiz</h5><p>Keep learning by taking more quizes.</p>",
         "level1":  "DRC Ready",
         "level2":  "Lingala Intermediate",

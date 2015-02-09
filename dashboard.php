@@ -10,7 +10,7 @@ $quizHref4 = BASE_URL . "/intermediate/index.php";
 $quizHref5 = BASE_URL . "/family/index.php";
 $quizHref6 = BASE_URL . "/inthehome/index.php";
 $quizHref7 = BASE_URL . "/advanced/index.php";
-$quizHref8 = BASE_URL . "/home/basicHome.php";?>
+$quizHref8 = BASE_URL . "Contact.php";?>
 <!--Header End-->
 
 
@@ -76,7 +76,7 @@ $quizHref8 = BASE_URL . "/home/basicHome.php";?>
                                     </div>
                                 </div>
                             </div>
-                            <a href="verbs.php">
+                            <a href="<?php echo $quizHref2; ?>">
                                 <div class="panel-footer">
                                     <span class="pull-left">Take a quiz</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -98,7 +98,7 @@ $quizHref8 = BASE_URL . "/home/basicHome.php";?>
                                     </div>
                                 </div>
                             </div>
-                            <a href="phrase.php">
+                            <a href="<?php echo $quizHref3; ?>">
                                 <div class="panel-footer">
                                     <span class="pull-left">Take a quiz</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -120,7 +120,7 @@ $quizHref8 = BASE_URL . "/home/basicHome.php";?>
                                     </div>
                                 </div>
                             </div>
-                            <a href="Intermediate.php">
+                            <a href="<?php echo $quizHref4; ?>">
                                 <div class="panel-footer">
                                     <span class="pull-left">Take a quiz</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -146,7 +146,7 @@ $quizHref8 = BASE_URL . "/home/basicHome.php";?>
                                     </div>
                                 </div>
                             </div>
-                            <a href="Family.php">
+                            <a href="<?php echo $quizHref5; ?>">
                                 <div class="panel-footer">
                                     <span class="pull-left">Take a quiz</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -168,7 +168,7 @@ $quizHref8 = BASE_URL . "/home/basicHome.php";?>
                                     </div>
                                 </div>
                             </div>
-                            <a href="inthehouse.php">
+                            <a href="<?php echo $quizHref6; ?>">
                                 <div class="panel-footer">
                                     <span class="pull-left">Take a quiz</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -190,7 +190,7 @@ $quizHref8 = BASE_URL . "/home/basicHome.php";?>
                                     </div>
                                 </div>
                             </div>
-                            <a href="Advanced.php">
+                            <a href="<?php echo $quizHref7; ?>">
                                 <div class="panel-footer">
                                     <span class="pull-left">Take a quiz</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -212,7 +212,7 @@ $quizHref8 = BASE_URL . "/home/basicHome.php";?>
                                     </div>
                                 </div>
                             </div>
-                            <a href="contact.php">
+                            <a href="<?php echo $quizHref8; ?>">
                                 <div class="panel-footer">
                                     <span class="pull-left">Contact Me!</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>

@@ -1,7 +1,8 @@
 <!--Header Begin-->
 <?php 
-$pageTitle = "In The Home Quiz";
-include 'inc/header.php'; ?>
+$pageTitle = "Home Quiz 1";
+require_once('../inc/config.php');
+include(ROOT_PATH . 'inc/header.php'); ?>
 <!--Header End-->
 
 
@@ -55,13 +56,13 @@ include 'inc/header.php'; ?>
 
    
 <!--Footer Begin-->
-<?php
-include 'inc/footer.php'; 
-?>
- <!--Footer End-->
 
-<script src="js/config/inthehouseQuiz-config.js"></script>
-    
+<?php include(ROOT_PATH . 'inc/footer.php') ?>
+
+ <!--Footer End--> 
+
+<script src="../js/Config/inthehome/inthehomeQuiz-config.js"></script>
+     
     </body>
 
 

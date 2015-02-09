@@ -33,6 +33,8 @@ include(ROOT_PATH . 'inc/header.php'); ?>
     <p>I also hold two Undergraduate Degrees: One in Sociology with an emphasis in Organizational Studies
      and the other in Chicana/o Studies with and emphasis in Public Policy. 
     </p>
+    <p>Currently I am a County Consultant to the State of California for the developement of CWS/New System Project - a new State-wide child welfare case management system. 
+    </p>
 </div>
 
 </div>
