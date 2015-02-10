@@ -1,6 +1,6 @@
 <!--Header Begin-->
 <?php 
-$pageTitle = 'Verb Quizes';
+$pageTitle = 'Verb Quizzes';
 require_once('../inc/config.php');
 include(ROOT_PATH . 'inc/header.php');
 $quizTitle1 = 'Quiz 1';
@@ -40,7 +40,7 @@ $quizHref4 = '../verbs/verbs4.php'; ?>
  <div class="jumbotron">
                 
              
-        <h1>Verb Quizes</h1>
+        <h1>Verb Quizzes</h1>
         <p>This is a great place to get better!</p>  
         
     </div>

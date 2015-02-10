@@ -1,7 +1,7 @@
 <!--Header Begin-->
 <?php 
 require_once('../inc/config.php');
-$pageTitle = 'Home Quizes';
+$pageTitle = 'Home Quizzes';
 $quizTitle1 = 'Quiz 1';
 $quizTitle2 = 'Quiz 2';
 $quizTitle3 = 'Quiz 3';
@@ -41,7 +41,7 @@ include(ROOT_PATH . 'inc/header.php');
  <div class="jumbotron">
                 
              
-        <h1>Home Quizes</h1>
+        <h1>Home Quizzes</h1>
         <p>This is a great place to learn phrased used in the home!</p>  
         
     </div>

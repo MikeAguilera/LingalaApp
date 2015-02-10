@@ -7,11 +7,11 @@ var basicJSON = {
         "name":    "Phrase Quiz 2",
         "main":    "<p> This is the Phrase Quiz</p>",
         "results": "<h5>Take another quiz</h5><p>Keep learning by taking more quizes.</p>",
-        "level1":  "DRC Ready",
-        "level2":  "Lingala Intermediate",
-        "level3":  "Lingala Novice",
-        "level4":  "Not quite ready, but you will get there",
-        "level5":  "Keep it up, you will get better"  // no comma here
+        "level1":  "DRC Champion",
+        "level2":  "DRC Heavyweight",
+        "level3":  "DRC Lightweight",
+        "level4":  "DRC Featherweight",
+        "level5":  "DRC Amature"  // no comma here
     },
     "questions": [
         { // Question 1 - Multiple Choice, Single True Answer
