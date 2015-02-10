@@ -2,10 +2,10 @@
 <?php 
 require_once('../inc/config.php');
 $pageTitle = 'Advanced Quizzes';
-$quizTitle1 = 'Quiz 1';
-$quizTitle2 = 'Quiz 2';
-$quizTitle3 = 'Quiz 3';
-$quizTitle4 = 'Quiz 4';
+$quizTitle1 = 'Subject Marker Pt.5';
+$quizTitle2 = 'Imparative';
+$quizTitle3 = 'Prepositions and Conjunctions';
+$quizTitle4 = 'Adjectives';
 $quizIcon1 = 'book';
 $quizIcon2 = 'comment';
 $quizIcon3 = 'comments';

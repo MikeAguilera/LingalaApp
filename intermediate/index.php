@@ -2,10 +2,10 @@
 <?php 
 require_once('../inc/config.php');
 $pageTitle = 'Intermediate Quizzes';
-$quizTitle1 = 'Quiz 1';
-$quizTitle2 = 'Quiz 2';
-$quizTitle3 = 'Quiz 3';
-$quizTitle4 = 'Quiz 4';
+$quizTitle1 = 'Subject Marker Pt.3';
+$quizTitle2 = 'Past Tense';
+$quizTitle3 = 'Subject Marker Pt.4';
+$quizTitle4 = 'Future Tense';
 $quizIcon1 = 'book';
 $quizIcon2 = 'comment';
 $quizIcon3 = 'comments';

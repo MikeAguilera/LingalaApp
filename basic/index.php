@@ -1,11 +1,11 @@
 <!--Header Begin-->
 <?php 
 require_once('../inc/config.php');
-$pageTitle = 'Basic Quizes';
-$quizTitle1 = 'Subject Marker';
+$pageTitle = 'Basic Quizzes';
+$quizTitle1 = 'Subject Marker Pt.1';
 $quizTitle2 = 'Present Tense';
-$quizTitle3 = 'Continious Tense';
-$quizTitle4 = 'Past Tense';
+$quizTitle3 = 'Subject Marker Pt.2';
+$quizTitle4 = 'Continious Tense';
 $quizIcon1 = 'book';
 $quizIcon2 = 'comment';
 $quizIcon3 = 'comments';
@@ -41,7 +41,7 @@ include(ROOT_PATH . 'inc/header.php');
  <div class="jumbotron">
                 
              
-        <h1>Basic Quizes</h1>
+        <h1>Basic Quizzes</h1>
         <p>This is a great place to start!</p>  
         
     </div>
