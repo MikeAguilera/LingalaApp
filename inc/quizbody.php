@@ -7,7 +7,7 @@
                                         <i class="fa fa-fw fa-<?php echo $quizIcon1; ?> fa-5x"></i>
                                     </div>
                                     <div class="col-xs-9 text-right">
-                                        <div class="huge"><?php echo $quizTitle1; ?></div>
+                                        <div class="huge" style="font-size:2em;"><?php echo $quizTitle1; ?></div>
                                         <div>   </div>
                                     </div>
                                 </div>
@@ -29,7 +29,7 @@
                                         <i class="fa fa-fw fa-<?php echo $quizIcon2; ?> fa-5x"></i>
                                     </div>
                                     <div class="col-xs-9 text-right">
-                                        <div class="huge"><?php echo $quizTitle2; ?></div>
+                                        <div class="huge" style="font-size:2em;"><?php echo $quizTitle2; ?></div>
                                         <div></div>
                                     </div>
                                 </div>
@@ -51,7 +51,7 @@
                                         <i class="fa fa-fw fa-<?php echo $quizIcon3; ?> fa-5x"></i>
                                     </div>
                                     <div class="col-xs-9 text-right">
-                                        <div class="huge"><?php echo $quizTitle3; ?></div>
+                                        <div class="huge" style="font-size:2em;"><?php echo $quizTitle3; ?></div>
                                         <div></div>
                                     </div>
                                 </div>
@@ -73,7 +73,7 @@
                                         <i class="fa fa-fw fa-<?php echo $quizIcon4; ?> fa-5x"></i>
                                     </div>
                                     <div class="col-xs-9 text-right">
-                                        <div class="huge"><?php echo $quizTitle4; ?></div>
+                                        <div class="huge" style="font-size:2em;"><?php echo $quizTitle4; ?></div>
                                         <div></div>
                                     </div>
                                 </div>

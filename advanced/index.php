@@ -4,7 +4,7 @@ require_once('../inc/config.php');
 $pageTitle = 'Advanced Quizzes';
 $quizTitle1 = 'Subject Marker Pt.5';
 $quizTitle2 = 'Imparative';
-$quizTitle3 = 'Prepositions & Conjunctions';
+$quizTitle3 = 'Prepositions/ Conjunctions';
 $quizTitle4 = 'Adjectives';
 $quizIcon1 = 'book';
 $quizIcon2 = 'comment';
