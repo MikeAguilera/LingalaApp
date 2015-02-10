@@ -4,7 +4,7 @@
 
 var basicJSON = {
     "info": {
-        "name":    "Present Tense - ",
+        "name":    "Present Tense",
         "main":    "<p> To Drink: Komela</p>",
         "results": "<h5>Take another quiz</h5><p>Keep learning by taking more quizes.</p>",
         "level1":  "DRC Champion",
