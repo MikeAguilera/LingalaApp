@@ -283,7 +283,7 @@ form input[type="submit"] {
 }
 .section.page.search p {text-align: center;}
 
-.section.shirts ul.products {margin: 0 0 -17px 0; padding: 0; width: 997px;}
+.section.shirts ul.products {margin: 0; padding: 0; width: 100%;}
 .section.shirts ul.products li {
     display: inline-block;
     list-style: none;
@@ -291,13 +291,12 @@ form input[type="submit"] {
     -webkit-border-radius: 2px;
     border-radius: 2px;
     width: 100%;
-    text-align: left;
+    text-align: center;
     /*text-transform: capitalize;*/
     padding: 5px;
     background: #f0eeed;
     margin: 0 0 5px 5px;
     position: relative;
-    left: 85px;
 }
 .section.shirts ul.products li a:hover:after {
     content: '+';
@@ -327,17 +326,29 @@ form input[type="submit"] {
 /********************************************/
 
 @media screen and (max-width: 768px){
-.container-fluid {
-    margin-top: -45px !important;
-}
+    .container-fluid {
+        margin-top: -45px !important;
+    }
 
-.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
-max-height: 420px;
-}
+    .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+    max-height: 420px;
+    }
+    .section.shirts ul.products {
+    width: 95%;
+    }
+    .section.shirts ul.products li {
+    left: 0px; 
+    }
 };
 
-
-
+@media screen and (max-width: 769px) and (max-width: 1300px){
+    .section.shirts ul.products {
+    width: 95%;
+    }
+    .section.shirts ul.products li {
+    left: 0px; 
+    }
+};
 
 
 
