@@ -83,7 +83,7 @@
                         <a href="<?php echo BASE_URL; ?>advanced/index.php"><i class="fa fa-fw fa-star-o"></i> Advanced</a>
                     </li>
                     <li>
-                        <a href="<?php echo BASE_URL; ?>about.php"><i class="fa fa-fw fa-info"></i> About</a>
+                        <a href="<?php echo BASE_URL; ?>search/index.php"><i class="fa fa-fw fa-search"></i> Search</a>
                     </li>
                     <li>
                         <a href="<?php echo BASE_URL; ?>contact.php"><i class="fa fa-fw fa-envelope"></i> Contact Me</a>

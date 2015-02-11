@@ -223,10 +223,109 @@ ul.alert-dropdown {
     color: #df8a13;
 }
 
+/********************************************/
+            /*Search Page Layout*/
+/********************************************/
+
+.section.page h1 {
+font-size: 24px;
+text-align: center;
+text-transform: uppercase;
+line-height: 1.6;
+font-weight: normal;
+}
+form {width: 375px; margin: 34px auto;}
+form tr {
+    border: 1px solid #CCC;
+    background: #f4f3f2;
+}
+form table {width: 375px; margin-bottom: 16px;}
+form th {
+    width: 85px;
+    border-right: 1px solid #CCC;
+    vertical-align: middle;
+    padding: 8px;
+}
+form td {
+    padding: 15px 15px;
+}
+form td select,
+form td input,
+form td textarea {
+    width: 100%;
+}
+form input[type="submit"] {
+    width: 375px;
+    text-align: center;
+    border: 1px solid #4cae4c;
+    background: #5cb85c;
+    color: #FFF;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;    
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 14px;
+}
+.search form {
+    width: auto;
+    text-align: center;
+}
+.search form input[type="text"] {
+    font-size: 24px;
+    width: 70%;
+    line-height: 1.5;
+    vertical-align: top;
+    padding: 3px;
+}
+.search form input[type="submit"] {
+    width: auto;
+    vertical-align: top;    
+}
+.section.page.search p {text-align: center;}
+
+.section.shirts ul.products {margin: 0 0 -17px 0; padding: 0; width: 997px;}
+.section.shirts ul.products li {
+    display: inline-block;
+    list-style: none;
+    border: 1px solid #e3e1e0;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    width: 100%;
+    text-align: left;
+    /*text-transform: capitalize;*/
+    padding: 5px;
+    background: #f0eeed;
+    margin: 0 0 5px 5px;
+    position: relative;
+    left: 85px;
+}
+.section.shirts ul.products li a:hover:after {
+    content: '+';
+    font-size: 50px; position: absolute; top: -10px; right: 25px; color: #f16702; vertical-align: top;    
+}
+.section.shirts ul.products li a {
+    background: white;
+    display: inline-block;
+    padding: 30px 0 10px;
+    text-decoration: none;
+    color: #999;
+    opacity: .9;
+}
+.section.shirts ul.products li a:hover {
+    opacity: 1;
+    color: #666;
+}
+.section.shirts ul.products li p {
+    margin-left: 0;
+    margin-right: 0;
+    width: auto;
+}
+
 
 /********************************************/
             /*Media Queries*/
 /********************************************/
+
 @media screen and (max-width: 768px){
 .container-fluid {
     margin-top: -45px !important;

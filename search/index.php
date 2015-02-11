@@ -1,6 +1,6 @@
 <?php
 
-require_once("../inc/config.php");
+require_once('../inc/config.php');
 
 $search_term = "";
 if (isset($_GET["s"])) {
@@ -13,37 +13,47 @@ if (isset($_GET["s"])) {
 
 $pageTitle = "Search";
 $section = "search";
-include(ROOT_PATH . "inc/header.php"); ?>
+include(ROOT_PATH . 'inc/header.php'); ?>
 
-	<div class="section shirts search page">
+<div id="page-wrapper">
 
-		<div class="wrapper">
+    <div class="container-fluid">
 
-			<h1>Search</h1>
+		<div class="section shirts search page">
 
-			<form method="get" action="./">
-				<input type="text" name="s" value="<?php echo htmlspecialchars($search_term); ?>">
-				<input type="submit" value="Go">
-			</form>
+			<div class="wrapper">
 
-			<?php
+				<h1>Lingala Dictionary</h1>
 
-				if ($search_term != "") {
-					if (!empty($products)) {
-						echo '<ul class="products">';
-						foreach ($products as $product) {
-							echo get_list_view_html($product);
+				<form method="get" action="./">
+					<input type="text" name="s" value="<?php echo htmlspecialchars($search_term); ?>">
+					<input type="submit" value="Go">
+				</form>
+
+				<?php
+
+					if ($search_term != "") {
+						if (!empty($products)) {
+							echo '<ul class="products">';
+							foreach ($products as $product) {
+								echo get_list_view_html($product);
+							}
+							echo '</ul>';
+						} else {
+							echo '<p>No words were found matching that search term.</p>';
 						}
-						echo '</ul>';
-					} else {
-						echo '<p>No products were found matching that search term.</p>';
 					}
-				}
 
-			?>
+				?>
+
+			</div>
 
 		</div>
-
 	</div>
+</div>
 
-<?php include(ROOT_PATH . "inc/footer.php"); ?>
+<!--Footer Begin-->
+
+<?php include(ROOT_PATH . 'inc/footer.php') ?>
+
+ <!--Footer End-->   

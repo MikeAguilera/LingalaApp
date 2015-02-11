@@ -26,8 +26,15 @@ include(ROOT_PATH . 'inc/header.php'); ?>
                 <!-- /.row -->
 
 <div class="jumbotron">
-    <h1>Contact Me</h1>
-    <p>If you have a quiz to suggest please email me. </p>
+    <h1>Contact Me</h1><br />
+    <h4>Michael Aguilera - </h4>
+    <p>I am Social Worker with a Maters Degree in Social Work (MSW) and Professional Web Developer &amp; Tech Consultant. 
+    </p>
+    <p>I also hold two Undergraduate Degrees: One in Sociology with an emphasis in Organizational Studies
+     and the other in Chicana/o Studies with and emphasis in Public Policy. 
+    </p>
+    <p>Currently I am a County Consultant to the State of California for the developement of CWS/New System Project - a new State-wide child welfare case management system. 
+    </p>
     <a href="mailto:michael.aguilera@gmail.com" class="btn btn-success">Email Me</a>
 </div>
 
