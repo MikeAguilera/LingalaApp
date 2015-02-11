@@ -340,7 +340,63 @@ function get_products_all() {
     $products[175] = array(
         "name" => "Century",
         "lingala" => "Ekeke",
-    );       
+    );
+    $products[176] = array(
+        "name" => "Chair",
+        "lingala" => "Kiti",
+    ); 
+    $products[177] = array(
+        "name" => "Change",
+        "lingala" => "Bureau de change",
+    ); 
+    $products[178] = array(
+        "name" => "Chess",
+        "lingala" => "Dames",
+    ); 
+    $products[179] = array(
+        "name" => "Chewing Gum",
+        "lingala" => "Bazoka",
+    ); 
+    $products[180] = array(
+        "name" => "Chicken",
+        "lingala" => "Soso",
+    ); 
+    $products[181] = array(
+        "name" => "Chocolate",
+        "lingala" => "Chocolat",
+    ); 
+    $products[182] = array(
+        "name" => "Christian",
+        "lingala" => "Mondimi",
+    ); 
+    $products[183] = array(
+        "name" => "Christians",
+        "lingala" => "Bandimi",
+    ); 
+    $products[184] = array(
+        "name" => "Church",
+        "lingala" => "Ndako ya nzambe",
+    ); 
+    $products[185] = array(
+        "name" => "Cigarette",
+        "lingala" => "Likaya",
+    ); 
+    $products[186] = array(
+        "name" => "Cinema",
+        "lingala" => "Moboke",
+    ); 
+    $products[187] = array(
+        "name" => "Clerk",
+        "lingala" => "Kalaka",
+    ); 
+    $products[188] = array(
+        "name" => "Clock",
+        "lingala" => "Montre",
+    ); 
+    $products[189] = array(
+        "name" => "Closed",
+        "lingala" => "Ekangami",
+    );        
 
     foreach ($products as $product_id => $product) {
         $products[$product_id]["sku"] = $product_id;
