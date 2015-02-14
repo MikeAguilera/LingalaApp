@@ -7,7 +7,6 @@ CREATE TABLE IF NOT EXISTS `lingala` (
   `lingala` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
-INSERT INTO `lingala` (`english`, `lingala`) VALUES();
 INSERT INTO `lingala` (`english`, `lingala`) VALUES('Account', 'Ebomiselo misolo');
 INSERT INTO `lingala` (`english`, `lingala`) VALUES('Accountant', 'Mobombi misolo');
 INSERT INTO `lingala` (`english`, `lingala`) VALUES('Adaptor', 'Adaptateur');
