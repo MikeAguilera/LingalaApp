@@ -4,7 +4,7 @@
 
 var basicJSON = {
     "info": {
-        "name":    "Subject Markers Part 3",
+        "name":    "Subject Markers Pt. 3",
         "main":    "<p> Identify the Past Tense Subject Markers</p>",
         "results": "<h5>Take another quiz</h5><p>Keep learning by taking more quizes.</p>",
         "level1":  "DRC Champion",
