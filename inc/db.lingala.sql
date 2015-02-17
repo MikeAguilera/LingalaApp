@@ -80,3 +80,78 @@ INSERT INTO `lingala` (`english`, `lingala`) VALUES('Cavity', 'Maladi ya mino');
 INSERT INTO `lingala` (`english`, `lingala`) VALUES('Celery', 'Ndunda ya celeri');
 INSERT INTO `lingala` (`english`, `lingala`) VALUES('Cemetery', 'Cemetery');
 INSERT INTO `lingala` (`english`, `lingala`) VALUES('Century', 'Ekeke');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Chair', 'Kiti');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Change', 'Bureau de change');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Chess', 'Dames');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Chewing Gum', 'Bazoka');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Chicken', 'Soso');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Chocolate', 'Chocolat');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Christian', 'Mondimi');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Christians', 'Bandimi');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Church', 'Ndako ya nzambe');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Cigarette', 'Likaya');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Cinema', 'Moboke');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Clerk', 'Kalaka');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Clock', 'Montre');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Closed', 'Ekangami');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Clothes Hanger', 'Etandeli bilamba');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Coffee', 'Cafe');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Coke', 'Coca');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Comb', 'Kisanola');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Computer', 'Ordinateur');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Concert', 'Lisano ya miziki');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Corkscrew', 'Efongoli molangi');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Couch', 'Kiti');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Cough Medicine', 'Kisi ya miziki');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Cousin', 'Ndeko');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Cow', 'Ngombe');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Cream', 'Creme');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Credit Card', 'Mokanda ya credit');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Crossroad', 'Esika banzela ekouitani');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Cut', 'Pota');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Dance', 'Mabina');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Date', 'Bokutani');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Daughter', 'Mwana mwasi');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Day', 'Mokolo');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('December', 'Sanza ya zomi na mibale');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Desert', 'Desert');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Dessert', 'Dessert');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Dinner', 'Soiree');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Dish', 'Sani');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Dishes', 'Basani');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Disk', 'Disquette');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Doctor', 'Monganga');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Document', 'Mikanda');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Dog', 'Mbwa');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Doorman', 'Mofongoli ekuke');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Doorman', 'Sentinel');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Dried Seasoning', 'Elaga');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Drum', 'Mbonda');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Dustbin', 'Poubelle');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Century', 'Ekeke');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Century', 'Ekeke');
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Century', 'Ekeke');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
