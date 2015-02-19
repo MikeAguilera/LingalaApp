@@ -128,9 +128,6 @@ INSERT INTO `lingala` (`english`, `lingala`) VALUES('Doorman', 'Sentinel');
 INSERT INTO `lingala` (`english`, `lingala`) VALUES('Dried Seasoning', 'Elaga');
 INSERT INTO `lingala` (`english`, `lingala`) VALUES('Drum', 'Mbonda');
 INSERT INTO `lingala` (`english`, `lingala`) VALUES('Dustbin', 'Poubelle');
-INSERT INTO `lingala` (`english`, `lingala`) VALUES('Century', 'Ekeke');
-INSERT INTO `lingala` (`english`, `lingala`) VALUES('Century', 'Ekeke');
-INSERT INTO `lingala` (`english`, `lingala`) VALUES('Century', 'Ekeke');
 
 
 

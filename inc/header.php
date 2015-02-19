@@ -9,6 +9,16 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <!--Apple HomeScreem Icons-->
+    <link rel="apple-touch-icon" href="<?php echo BASE_URL; ?>img/Flag_of_the_Democratic_Republic_of_the_Congo.svg.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="<?php echo BASE_URL; ?>img/Flag_of_the_Democratic_Republic_of_the_Congo.svg.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="<?php echo BASE_URL; ?>img/Flag_of_the_Democratic_Republic_of_the_Congo.svg.png" />
+<!--End Apple HomeScreem Icons-->
+
+<!-- Homescreen Icon -->   
+<link rel="shortcut icon" href="<?php echo BASE_URL; ?>img/Flag_of_the_Democratic_Republic_of_the_Congo.svg.png">
+<!-- End Homescreen Icon --> 
+
 <!--From Lingala App Begin-->
     <title><?php echo $pageTitle; ?></title>
 
