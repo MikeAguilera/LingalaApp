@@ -5,7 +5,7 @@ function get_list_view_html($product) {
     $output = "";
 
     $output = $output . "<li>";
-    $output = $output . '<p>' . $product["name"] .  ' : '  . $product["lingala"] . '</p>';
+    $output = $output . '<p>' . $product["english"] .  ' : '  . $product["lingala"] . '</p>';
     $output = $output . "</li>";
 
     return $output;
@@ -32,7 +32,7 @@ function get_products_search($s) {
     $all = get_products_all();
 
     foreach($all as $product) {
-        if (stripos($product["name"],$s) !== false) {
+        if (stripos($product["english"],$s) !== false) {
             $results[] = $product;
         }
     }
@@ -40,8 +40,8 @@ function get_products_search($s) {
 }
 
 function get_products_all() {
-    $products = array();
-    $products[101] = array(
+    //$products = array();
+   /* $products[101] = array(
     	"name" => "Account",
         "lingala" => "Ebomiselo misolo",
     );
@@ -396,15 +396,36 @@ function get_products_all() {
     $products[189] = array(
         "name" => "Closed",
         "lingala" => "Ekangami",
-    );        
+    ); */       
+try {
+    $db = new PDO("mysql:host=localhost;dbname=lingaladictionary;port=8889","root","root");
+    //var_dump($db);
+    $db->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
+    $db->exec("SET NAMES 'utf8'");
+} catch (Exception $e) {
+    echo "Could not connect to database!"; 
+    exit;
+}
+//echo "Yes!";
 
-    foreach ($products as $product_id => $product) {
-        $products[$product_id]["sku"] = $product_id;
-    }
+try {
+    $results = $db->query("SELECT english, lingala FROM lingala ORDER BY english ASC");
+    //echo "The query ran successfully.";
+    //var_dump($db);
+} catch (Exception $e){
+    echo "Data could not be retrieved from the database."; 
+    exit;
+}
+//echo "<pre>";
+//var_dump($results->fetchAll(PDO::FETCH_ASSOC));
+$products = $results->fetchAll(PDO::FETCH_ASSOC);
+
+    //foreach ($products as $product_id => $product) {
+       // $products[$product_id]["sku"] = $product_id;
+   // }
 
     return $products;
 }
-
 
 
 
