@@ -397,16 +397,8 @@ function get_products_all() {
         "name" => "Closed",
         "lingala" => "Ekangami",
     ); */       
-try {
-    $db = new PDO("mysql:host=localhost;dbname=lingaladictionary;port=8889","root","root");
-    //var_dump($db);
-    $db->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
-    $db->exec("SET NAMES 'utf8'");
-} catch (Exception $e) {
-    echo "Could not connect to database!"; 
-    exit;
-}
-//echo "Yes!";
+
+require(ROOT_PATH . "inc/database.php");
 
 try {
     $results = $db->query("SELECT english, lingala FROM lingala ORDER BY english ASC");
