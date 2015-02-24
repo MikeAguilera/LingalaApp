@@ -93,10 +93,10 @@
                         <a href="<?php echo BASE_URL; ?>advanced/index.php"><i class="fa fa-fw fa-star-o"></i> Advanced</a>
                     </li>
                     <li>
-                        <a href="<?php echo BASE_URL; ?>search/index.php"><i class="fa fa-fw fa-search"></i> Search</a>
+                        <a href="<?php echo BASE_URL; ?>search/index.php"><i class="fa fa-fw fa-search"></i> Lingala Dictionary</a>
                     </li>
                     <li>
-                        <a href="<?php echo BASE_URL; ?>contact.php"><i class="fa fa-fw fa-envelope"></i> Contact Me</a>
+                        <a href="<?php echo BASE_URL; ?>contact/index.php"><i class="fa fa-fw fa-envelope"></i> Contact Me</a>
                     </li>
                 </ul>
             </div>
