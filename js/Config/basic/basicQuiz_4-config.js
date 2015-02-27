@@ -30,8 +30,8 @@ var basicJSON = {
             "a": [
                 {"option": "Nazali Komela",   "correct": false},
                 {"option": "Azali  Komela",   "correct": false},
-                {"option": "Ozali  Komela",  "correct": false},
-                {"option": "Bozali Komela",   "correct": true} // no comma here
+                {"option": "Ozali  Komela",  "correct": true},
+                {"option": "Bozali Komela",   "correct": false} // no comma here
             ],
             "select_any": true,
             "correct": "<p><span>Nice!</span> Yes! That is correct. Keep it up!</p>",
