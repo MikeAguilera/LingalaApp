@@ -25,32 +25,72 @@ include(ROOT_PATH . 'inc/header.php');?>
                 </div>
                 <!-- /.row -->
 
- <div class="jumbotron">
-                
-             
-        <h1 class="quizName">Basics Quiz 1</h1>
+        <div class="jumbotron">
+                    
+                 
+            <h1 class="quizName">Basics Quiz 1</h1>
 
-        <div class="quizArea">
-            <div class="quizHeader">
-                <!-- where the quiz main copy goes -->
+            <div class="quizArea">
+                <div class="quizHeader">
+                    <!-- where the quiz main copy goes -->
 
-                <a class="button startQuiz btn btn-success" href="#">Get Started!</a>
+                    <a class="button startQuiz btn btn-success" href="#">Get Started!</a>
+                </div>
+
+                <!-- where the quiz gets built -->
             </div>
 
-            <!-- where the quiz gets built -->
+            <div class="quizResults">
+                <h3 class="quizScore">You Scored: <span><!-- where the quiz score goes --></span></h3>
+
+                <h3 class="quizLevel"><strong>Ranking:</strong> <span><!-- where the quiz ranking level goes --></span></h3>
+
+                <div class="quizResultsCopy">
+                    <!-- where the quiz result copy goes -->
+                </div>
+           </div>
+        </div>
+            <div class="container">
+                <div class="content">
+                        <table>
+                            <thead>
+                                Lingala Basics
+                            </thead>
+                            <tr>
+                                <td>
+                                    Symbol
+                                </td>
+                                <td>
+                                    Phoneme
+                                </td>
+                                <td>
+                                    Phonetics
+                                </td>
+                                <td>
+                                    Approximation
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    p
+                                </td>
+                                <td>
+                                    /p/
+                                </td>
+                                <td>
+                                    [p]
+                                </td>
+                                <td>
+                                    <strong>p</strong>in
+                                </td>
+                            </tr>
+                    </table>
+                </div>
+            </div>
         </div>
 
-        <div class="quizResults">
-            <h3 class="quizScore">You Scored: <span><!-- where the quiz score goes --></span></h3>
 
-            <h3 class="quizLevel"><strong>Ranking:</strong> <span><!-- where the quiz ranking level goes --></span></h3>
-
-            <div class="quizResultsCopy">
-                <!-- where the quiz result copy goes -->
-            </div>
-       </div>
     </div>
-</div>
 </div>
 
 
