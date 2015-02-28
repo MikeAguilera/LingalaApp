@@ -52,39 +52,48 @@ include(ROOT_PATH . 'inc/header.php');?>
         </div>
             <div class="container">
                 <div class="content">
-                        <table>
-                            <thead>
-                                Lingala Basics
-                            </thead>
-                            <tr>
-                                <td>
-                                    Symbol
-                                </td>
-                                <td>
-                                    Phoneme
-                                </td>
-                                <td>
-                                    Phonetics
-                                </td>
-                                <td>
-                                    Approximation
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    p
-                                </td>
-                                <td>
-                                    /p/
-                                </td>
-                                <td>
-                                    [p]
-                                </td>
-                                <td>
-                                    <strong>p</strong>in
-                                </td>
-                            </tr>
-                    </table>
+                    <div class="panel panel-primary">
+                          <!-- Default panel contents -->
+                          <div class="panel-heading">Lingala Basics</div>
+                          <div class="panel-body">
+                            <p>In the four column chart given below, column I gives the orthography except for /e/ and /0/, column II
+                            II gives the phonemes, column III gives the phonetlc symbols, and column IV is an approxlmat1on of the sound using American 
+                            English and French sounds for comparlson.</p>
+                          </div>
+
+                          <!-- Table -->
+                          <table class="table">
+                                <tr>
+                                    <th>
+                                        Symbol
+                                    </th>
+                                    <th>
+                                        Phoneme
+                                    </th>
+                                    <th>
+                                        Phonetics
+                                    </th>
+                                    <th>
+                                        Approximation
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        p
+                                    </td>
+                                    <td>
+                                       /p/
+                                    </td>
+                                    <td>
+                                        [p]
+                                    </td>
+                                    <td>
+                                        <strong>p</strong>in
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        
                 </div>
             </div>
         </div>
