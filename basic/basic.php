@@ -51,8 +51,81 @@ include(ROOT_PATH . 'inc/header.php');?>
            </div>
         </div>
         </div>
-
-
+                            <div class="panel panel-default">
+                            <!-- Default panel contents -->
+                                <div class="panel-heading">Subject Markers</div>
+                                <div class="panel-body">
+                                <p>Below are the list of English Subject Markers followed by their corresponding Lingala Subject Markers.</p>
+                                </div>
+                                  <!-- Table -->
+                                  <table class="table">
+                                        <tr>
+                                            <th>
+                                                English
+                                            </th>
+                                            <th>
+                                                Lingala
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                I
+                                            </td>
+                                            <td>
+                                               Na
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                You (singular)
+                                            </td>
+                                            <td>
+                                               O
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                He
+                                            </td>
+                                            <td>
+                                               A
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                It
+                                            </td>
+                                            <td>
+                                               E
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                We
+                                            </td>
+                                            <td>
+                                               To
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                You (plural)
+                                            </td>
+                                            <td>
+                                               Bo
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                They
+                                            </td>
+                                            <td>
+                                               Ba
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    
+                                </div>
     </div>
 </div>
 
