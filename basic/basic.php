@@ -143,17 +143,7 @@ include(ROOT_PATH . 'inc/header.php');?>
 
  <!--Footer End-->   
 <script src="../js/Config/basic/basicQuiz-config.js"></script>
-<script>
-
-$( "a:last" ).click(function() {
-  update( $( "#gone" ) );
-});
-
-function update( j ) {
-  j.hide();
-}
-
-</script>
+<script src="../js/disapear.js"></script>
     </body>
 
 
