@@ -14,7 +14,7 @@
                             </div>
                             <a href="<?php echo $quizHref1; ?>">
                                 <div class="panel-footer">
-                                    <span class="pull-left">Take a quiz</span>
+                                    <span class="pull-left">Start Course</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                                     <div class="clearfix"></div>
                                 </div>
@@ -36,7 +36,7 @@
                             </div>
                             <a href="<?php echo $quizHref2; ?>">
                                 <div class="panel-footer">
-                                    <span class="pull-left">Take a quiz</span>
+                                    <span class="pull-left">Start Course</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                                     <div class="clearfix"></div>
                                 </div>
@@ -58,7 +58,7 @@
                             </div>
                             <a href="<?php echo $quizHref3; ?>">
                                 <div class="panel-footer">
-                                    <span class="pull-left">Take a quiz</span>
+                                    <span class="pull-left">Start Course</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                                     <div class="clearfix"></div>
                                 </div>
@@ -80,7 +80,7 @@
                             </div>
                             <a href="<?php echo $quizHref4; ?>">
                                 <div class="panel-footer">
-                                    <span class="pull-left">Take a quiz</span>
+                                    <span class="pull-left">Start Course</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                                     <div class="clearfix"></div>
                                 </div>

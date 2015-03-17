@@ -25,37 +25,21 @@ include(ROOT_PATH . 'inc/header.php');?>
                 </div>
                 <!-- /.row -->
 
+                            
+
         <div class="jumbotron">
                     
                  
             <h1 class="quizName">Basics Quiz 1</h1>
-
             <div class="quizArea">
                 <div class="quizHeader">
                     <!-- where the quiz main copy goes -->
-
-                    <a class="button startQuiz btn btn-success" href="#">Get Started!</a>
-                </div>
-
-                <!-- where the quiz gets built -->
-            </div>
-
-            <div class="quizResults">
-                <h3 class="quizScore">You Scored: <span><!-- where the quiz score goes --></span></h3>
-
-                <h3 class="quizLevel"><strong>Ranking:</strong> <span><!-- where the quiz ranking level goes --></span></h3>
-
-                <div class="quizResultsCopy">
-                    <!-- where the quiz result copy goes -->
-                </div>
-           </div>
-        </div>
-        </div>
-                            <div class="panel panel-default">
+    <div class="container" id="gone">
+        <div class="content">
+            <div class="panel panel-default">
                             <!-- Default panel contents -->
-                                <div class="panel-heading">Subject Markers</div>
-                                <div class="panel-body">
-                                <p>Below are the list of English Subject Markers followed by their corresponding Lingala Subject Markers.</p>
+                                <div class="panel-heading">Subject Markers </div>
+                                <div class="panel-body"> Below are the list of English Subject Markers followed by their corresponding Lingala Subject Markers.
                                 </div>
                                   <!-- Table -->
                                   <table class="table">
@@ -124,8 +108,31 @@ include(ROOT_PATH . 'inc/header.php');?>
                                             </td>
                                         </tr>
                                     </table>
-                                    
                                 </div>
+                            </div>
+                                    
+            </div>
+
+            
+
+                    <a class="button startQuiz btn btn-success" href="#">Take Quiz</a>
+                </div>
+
+                <!-- where the quiz gets built -->
+            </div>
+
+            <div class="quizResults">
+                <h3 class="quizScore">You Scored: <span><!-- where the quiz score goes --></span></h3>
+
+                <h3 class="quizLevel"><strong>Ranking:</strong> <span><!-- where the quiz ranking level goes --></span></h3>
+
+                <div class="quizResultsCopy">
+                    <!-- where the quiz result copy goes -->
+                </div>
+           </div>
+        </div>
+        </div>
+
     </div>
 </div>
 
@@ -136,7 +143,17 @@ include(ROOT_PATH . 'inc/header.php');?>
 
  <!--Footer End-->   
 <script src="../js/Config/basic/basicQuiz-config.js"></script>
+<script>
 
+$( "a:last" ).click(function() {
+  update( $( "#gone" ) );
+});
+
+function update( j ) {
+  j.hide();
+}
+
+</script>
     </body>
 
 

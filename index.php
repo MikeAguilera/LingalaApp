@@ -496,9 +496,11 @@ include(ROOT_PATH . 'inc/header.php'); ?>
                                     </td>
                                 </tr>
                             </table>
-                            
                         </div>
                         
+                            <br>
+                            <br>
+                            <br>
                 </div>
             </div>
 
