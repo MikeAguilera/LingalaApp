@@ -34,8 +34,7 @@ include(ROOT_PATH . 'inc/header.php');?>
             <div class="quizArea">
                 <div class="quizHeader">
                     <!-- where the quiz main copy goes -->
-    <div class="container" id="gone">
-        <div class="content">
+   <div class="content" id="gone">
             <div class="panel panel-default">
                             <!-- Default panel contents -->
                                 <div class="panel-heading">Subject Markers </div>
@@ -50,6 +49,9 @@ include(ROOT_PATH . 'inc/header.php');?>
                                             <th>
                                                 Lingala
                                             </th>
+                                            <th>
+                                                Example - To Drink : Komela
+                                            </th>
                                         </tr>
                                         <tr>
                                             <td>
@@ -58,6 +60,9 @@ include(ROOT_PATH . 'inc/header.php');?>
                                             <td>
                                                Na
                                             </td>
+                                            <th>
+                                                I drink : <strong class='red';>Na</strong>zo Mela
+                                            </th>
                                         </tr>
                                         <tr>
                                             <td>
@@ -66,14 +71,20 @@ include(ROOT_PATH . 'inc/header.php');?>
                                             <td>
                                                O
                                             </td>
+                                            <th>
+                                                You drink : <strong class='red';>O</strong>zo Mela
+                                            </th>
                                         </tr>
                                         <tr>
                                             <td>
-                                                He
+                                                He/She
                                             </td>
                                             <td>
                                                A
                                             </td>
+                                            <th>
+                                                He/She drinks : <strong class='red';>A</strong>zo Mela
+                                            </th>
                                         </tr>
                                         <tr>
                                             <td>
@@ -82,6 +93,9 @@ include(ROOT_PATH . 'inc/header.php');?>
                                             <td>
                                                E
                                             </td>
+                                            <th>
+                                                It drinks : <strong class='red';>E</strong>zo Mela
+                                            </th>
                                         </tr>
                                         <tr>
                                             <td>
@@ -90,6 +104,9 @@ include(ROOT_PATH . 'inc/header.php');?>
                                             <td>
                                                To
                                             </td>
+                                            <th>
+                                                We drink : <strong class='red';>To</strong>zo Mela
+                                            </th>
                                         </tr>
                                         <tr>
                                             <td>
@@ -98,6 +115,9 @@ include(ROOT_PATH . 'inc/header.php');?>
                                             <td>
                                                Bo
                                             </td>
+                                            <th>
+                                                You all drink : <strong class='red';>Bo</strong>zo Mela
+                                            </th>
                                         </tr>
                                         <tr>
                                             <td>
@@ -106,12 +126,13 @@ include(ROOT_PATH . 'inc/header.php');?>
                                             <td>
                                                Ba
                                             </td>
+                                            <th>
+                                                They drink : <strong class='red';>Ba</strong>zo Mela
+                                            </th>
                                         </tr>
                                     </table>
                                 </div>
                             </div>
-                                    
-            </div>
 
             
 
@@ -143,7 +164,6 @@ include(ROOT_PATH . 'inc/header.php');?>
 
  <!--Footer End-->   
 <script src="../js/Config/basic/basicQuiz-config.js"></script>
-<script src="../js/disapear.js"></script>
     </body>
 
 

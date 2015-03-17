@@ -12,3 +12,6 @@
     <script src="<?php echo BASE_URL; ?>js/jquery.js"></script>
     <script src="<?php echo BASE_URL; ?>js/slickQuiz.js"></script>
     <script src="<?php echo BASE_URL; ?>js/master.js"></script>
+
+    <!-- Panel Hide JavaScript -->
+    <script src="<?php echo BASE_URL; ?>js/disapear.js"></script>

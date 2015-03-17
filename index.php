@@ -4,12 +4,7 @@ $pageTitle = "Learn Lingala";
 require_once('inc/config.php'); 
 include(ROOT_PATH . 'inc/header.php'); ?>
 <!--Header End-->
-<style type="text/css">
-.red {
-    color: red;
-}
 
-</style>
 
 <div id="page-wrapper">
 

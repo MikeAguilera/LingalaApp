@@ -34,6 +34,108 @@ include(ROOT_PATH . 'inc/header.php');
         <div class="quizArea">
             <div class="quizHeader">
                 <!-- where the quiz main copy goes -->
+                 <div class="container" id="gone">
+        <div class="content">
+            <div class="panel panel-default">
+                            <!-- Default panel contents -->
+                                <div class="panel-heading">Subject Markers </div>
+                                <div class="panel-body"> Below are the list of English Subject Markers followed by their corresponding Lingala Subject Markers.
+                                </div>
+                                  <!-- Table -->
+                                  <table class="table">
+                                        <tr>
+                                            <th>
+                                                English
+                                            </th>
+                                            <th>
+                                                Lingala
+                                            </th>
+                                            <th>
+                                                Example - To Drink : Komela
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                I
+                                            </td>
+                                            <td>
+                                               Na
+                                            </td>
+                                            <th>
+                                                I drink : <strong class='red';>Na</strong>zo Mela
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                You (singular)
+                                            </td>
+                                            <td>
+                                               O
+                                            </td>
+                                            <th>
+                                                You drink : <strong class='red';>O</strong>zo Mela
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                He/She
+                                            </td>
+                                            <td>
+                                               A
+                                            </td>
+                                            <th>
+                                                He/She drinks : <strong class='red';>A</strong>zo Mela
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                It
+                                            </td>
+                                            <td>
+                                               E
+                                            </td>
+                                            <th>
+                                                It drinks : <strong class='red';>E</strong>zo Mela
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                We
+                                            </td>
+                                            <td>
+                                               To
+                                            </td>
+                                            <th>
+                                                We drink : <strong class='red';>To</strong>zo Mela
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                You (plural)
+                                            </td>
+                                            <td>
+                                               Bo
+                                            </td>
+                                            <th>
+                                                You all drink : <strong class='red';>Bo</strong>zo Mela
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                They
+                                            </td>
+                                            <td>
+                                               Ba
+                                            </td>
+                                            <th>
+                                                They drink : <strong class='red';>Ba</strong>zo Mela
+                                            </th>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                                    
+            </div>
 
                 <a class="button startQuiz btn btn-success" href="#">Get Started!</a>
             </div>
