@@ -22,11 +22,11 @@ var basicJSON = {
                 {"option": "A",  "correct": false},
                 {"option": "Na",     "correct": true} // no comma here
             ],
-            "correct": "<p><span>That's right!</span>.<em> Na</em> is the Subject Marker for 'I'.</p>",
+            "correct": "<p><span>That's right!</span><em> Na</em> is the Subject Marker for 'I'.</p>",
             "incorrect": "<p><span>Uhh no.</span> Better luck next time. The correct answer is <em>Na</em>.</p>" // no comma here
         },
         { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
-            "q": "What is the Lingala Subject Marker for 'You'?",
+            "q": "What is the Lingala Subject Marker for 'You' (singular)?",
             "a": [
                 {"option": "O",   "correct": true},
                 {"option": "Ba",   "correct": false},
@@ -71,7 +71,7 @@ var basicJSON = {
             "incorrect": "<p><span>Sorry.</span> The correct answer is <em>To</em>.</p>" // no comma here
         }, 
         { // Question 6 - Multiple Choice, Single True Answer
-            "q": "What is the Lingala Subject Marker for 'You'?",
+            "q": "What is the Lingala Subject Marker for 'You' (plural)?",
             "a": [
                 {"option": "O",    "correct": false},
                 {"option": "Ba",     "correct": false},

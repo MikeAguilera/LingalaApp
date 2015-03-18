@@ -5,7 +5,7 @@
 var basicJSON = {
     "info": {
         "name":    "Subject Markers Pt. 3",
-        "main":    "<p> Identify the Past Tense Subject Markers</p>",
+        "main":    "<p> Identify the Past Tense Subject Markers</p><p> To Drive : Komema</p>",
         "results": "<h5>Take another quiz</h5><p>Keep learning by taking more quizes.</p>",
         "level1":  "DRC Champion",
         "level2":  "DRC Heavyweight",
@@ -15,83 +15,83 @@ var basicJSON = {
     },
     "questions": [
         { // Question 1 - Multiple Choice, Single True Answer
-            "q": "What is the Subject Marker for 'I'?",
+            "q": "What is the Subject Marker for 'I drive'?",
             "a": [
-                {"option": "Ezali",    "correct": false},
-                {"option": "Ozali",     "correct": false},
-                {"option": "Azali",  "correct": false},
-                {"option": "Nazali",     "correct": true} // no comma here
+                {"option": "Bamemaki",    "correct": false},
+                {"option": "Omemaki",     "correct": false},
+                {"option": "Amemaki",  "correct": false},
+                {"option": "Namemaki",     "correct": true} // no comma here
             ],
-            "correct": "<p><span>That's right!</span>.</p>",
-            "incorrect": "<p><span>Uhh no.</span> Better luck next time. The correct answer is <em>Nazali</em>.</p>" // no comma here
+            "correct": "<p><span>That's right!</span></p>",
+            "incorrect": "<p><span>Uhh no.</span> Better luck next time. The correct answer is <em>Namemaki</em>.</p>" // no comma here
         },
         { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
-            "q": "What is the Subject Marker for 'You'?",
+            "q": "What is the Subject Marker for 'You drive' (singular)?",
             "a": [
-                {"option": "Ozali",   "correct": true},
-                {"option": "Bazali",   "correct": false},
-                {"option": "Tozali",  "correct": false},
-                {"option": "Azali",   "correct": false} // no comma here
+                {"option": "Omemaki",   "correct": true},
+                {"option": "Bamemaki",   "correct": false},
+                {"option": "Tomemaki",  "correct": false},
+                {"option": "Amemaki",   "correct": false} // no comma here
             ],
             "select_any": true,
             "correct": "<p><span>Nice!</span> Yes! That is correct. Keep it up!</p>",
-            "incorrect": "<p><span>Hmmm.</span> Nice try. The correct answer is <em>Ozali</em>.</p>" // no comma here
+            "incorrect": "<p><span>Hmmm.</span> Nice try. The correct answer is <em>Omemaki</em>.</p>" // no comma here
         },
         { // Question 3 - Multiple Choice, Multiple True Answers, Select All
-            "q": "What is the Subject Marker for 'He/She'?",
+            "q": "What is the Subject Marker for 'He/She drives'?",
             "a": [
-                {"option": "Bozali",  "correct": false},
-                {"option": "Ezali",  "correct": false},
-                {"option": "Ozali",  "correct": false},
-                {"option": "Azali",  "correct": true} // no comma here
+                {"option": "Bomemaki",  "correct": false},
+                {"option": "Ememaki",  "correct": false},
+                {"option": "Omemaki",  "correct": false},
+                {"option": "Amemaki",  "correct": true} // no comma here
             ],
             "correct": "<p><span>Brilliant!</span> You're seriously a genius.</p>",
-            "incorrect": "<p><span>Not Quite.</span> But nice try. The correct answer is <em>Azali</em>.</p>" // no comma here
+            "incorrect": "<p><span>Not Quite.</span> But nice try. The correct answer is <em>Amemaki</em>.</p>" // no comma here
         },
         { // Question 4
-            "q": "What is the Subject Marker for 'It'?",
+            "q": "What is the Subject Marker for 'It drives'?",
             "a": [
-                {"option": "Tozali",    "correct": false},
-                {"option": "Ezali", "correct": true},
-                {"option": "Azali",      "correct": false},
-                {"option": "Ozali",   "correct": false} // no comma here
+                {"option": "Tomemaki",    "correct": false},
+                {"option": "Ememaki", "correct": true},
+                {"option": "Amemaki",      "correct": false},
+                {"option": "Omemaki",   "correct": false} // no comma here
             ],
             "correct": "<p>Correct!</p>",
-            "incorrect": "<p><span>Fail.</span> Sorry. The correct answer is <em>Ezali</em>.</p>" // no comma here
+            "incorrect": "<p><span>Fail.</span> Sorry. The correct answer is <em>Ememaki</em>.</p>" // no comma here
         },
         { // Question 5
-            "q": "What is the Subject Marker for 'We'?",
+            "q": "What is the Subject Marker for 'We drive'?",
             "a": [
-                {"option": "Bozali",    "correct": false},
-                {"option": "Bazali",    "correct": false},
-                {"option": "Ezali",    "correct": false},
-                {"option": "Tozali",     "correct": true} // no comma here
+                {"option": "Bomemaki",    "correct": false},
+                {"option": "Bamemaki",    "correct": false},
+                {"option": "Ememaki",    "correct": false},
+                {"option": "Tomemaki",     "correct": true} // no comma here
             ],
             "correct": "<p><span>Great Job!</span> You must be very observant!</p>",
-            "incorrect": "<p><span>Sorry.</span> The correct answer is <em>Tozali</em>.</p>" // no comma here
+            "incorrect": "<p><span>Sorry.</span> The correct answer is <em>Tomemaki</em>.</p>" // no comma here
         }, 
         { // Question 6 - Multiple Choice, Single True Answer
-            "q": "What is the Subject Marker for 'You'?",
+            "q": "What is the Subject Marker for 'You all drive' (plural)?",
             "a": [
-                {"option": "Ozali",    "correct": false},
-                {"option": "Bazali",     "correct": false},
-                {"option": "Bozali",  "correct": true},
-                {"option": "Ezali",     "correct": false} // no comma here
+                {"option": "Omemaki",    "correct": false},
+                {"option": "Bamemaki",     "correct": false},
+                {"option": "Bomemaki",  "correct": true},
+                {"option": "Ememaki",     "correct": false} // no comma here
             ],
             "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span> Better luck next time. The correct answer is <em>Bozali</em>.</p>" // no comma here
+            "incorrect": "<p><span>Uhh no.</span> Better luck next time. The correct answer is <em>Bomemaki</em>.</p>" // no comma here
         },
         { // Question 7 - Multiple Choice, Multiple True Answers, Select Any
-            "q": "What is the Subject Marker for 'They'?",
+            "q": "What is the Subject Marker for 'They drive'?",
             "a": [
-                {"option": "Bazali",   "correct": true},
-                {"option": "Ozali",   "correct": false},
-                {"option": "Azali",  "correct": false},
-                {"option": "Bozali",   "correct": false} // no comma here
+                {"option": "Bamemaki",   "correct": true},
+                {"option": "Omemaki",   "correct": false},
+                {"option": "Amemaki",  "correct": false},
+                {"option": "Bomemaki",   "correct": false} // no comma here
             ],
             "select_any": true,
             "correct": "<p><span>Nice!</span> Yes! You are amazing!</p>",
-            "incorrect": "<p><span>Hmmm.</span> Nice try. The correct answer is <em>Bazali</em>.</p>" // no comma here
+            "incorrect": "<p><span>Hmmm.</span> Nice try. The correct answer is <em>Bamemaki</em>.</p>" // no comma here
         }
         
     ]

@@ -15,12 +15,13 @@ include(ROOT_PATH . 'inc/header.php');
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
-                            Basic <small></small>
+                            Basics <small>Part 2</small>
                         </h1>
                         <ol class="breadcrumb">
                             <li class="active">
-                                <i class="fa fa-dashboard"></i> Basic Lingala 2
+                                <a href="<?php echo BASE_URL; ?>basic/index.php"><i class="fa fa-dashboard"></i> Basics</a> 
                             </li>
+                            <li><a href="<?php echo BASE_URL; ?>basic/basic2.php">Present Tense</a></li>
                         </ol>
                     </div>
                 </div>
@@ -34,12 +35,14 @@ include(ROOT_PATH . 'inc/header.php');
         <div class="quizArea">
             <div class="quizHeader">
                 <!-- where the quiz main copy goes -->
-                 <div class="container" id="gone">
+
+    <!-- where the panel begins --> 
+     <div class="container" id="gone">
         <div class="content">
             <div class="panel panel-default">
                             <!-- Default panel contents -->
                                 <div class="panel-heading">Subject Markers </div>
-                                <div class="panel-body"> Below are the list of English Subject Markers followed by their corresponding Lingala Subject Markers.
+                                <div class="panel-body"> The present tense is constructed by combining the Subject Marker + <strong class='red';>zo</strong> + verb (dropping the "<strong class='red';>Ko</strong>").
                                 </div>
                                   <!-- Table -->
                                   <table class="table">
@@ -51,7 +54,7 @@ include(ROOT_PATH . 'inc/header.php');
                                                 Lingala
                                             </th>
                                             <th>
-                                                Example - To Drink : Komela
+                                                Example - To Eat : Kolina (Ko-leen-a)
                                             </th>
                                         </tr>
                                         <tr>
@@ -59,10 +62,10 @@ include(ROOT_PATH . 'inc/header.php');
                                                 I
                                             </td>
                                             <td>
-                                               Na
+                                               Nazo (Nah-zow)
                                             </td>
                                             <th>
-                                                I drink : <strong class='red';>Na</strong>zo Mela
+                                                I eat : <strong class='red';>Nazo</strong> lina
                                             </th>
                                         </tr>
                                         <tr>
@@ -70,10 +73,10 @@ include(ROOT_PATH . 'inc/header.php');
                                                 You (singular)
                                             </td>
                                             <td>
-                                               O
+                                               Ozo (O-zow)
                                             </td>
                                             <th>
-                                                You drink : <strong class='red';>O</strong>zo Mela
+                                                You eat : <strong class='red';>Ozo</strong> lina
                                             </th>
                                         </tr>
                                         <tr>
@@ -81,10 +84,10 @@ include(ROOT_PATH . 'inc/header.php');
                                                 He/She
                                             </td>
                                             <td>
-                                               A
+                                               Azo (Ah-zow)
                                             </td>
                                             <th>
-                                                He/She drinks : <strong class='red';>A</strong>zo Mela
+                                                He/She eats : <strong class='red';>Azo</strong> lina
                                             </th>
                                         </tr>
                                         <tr>
@@ -92,10 +95,10 @@ include(ROOT_PATH . 'inc/header.php');
                                                 It
                                             </td>
                                             <td>
-                                               E
+                                               Ezo (Eh-zow)
                                             </td>
                                             <th>
-                                                It drinks : <strong class='red';>E</strong>zo Mela
+                                                It eats : <strong class='red';>Ezo</strong> lina
                                             </th>
                                         </tr>
                                         <tr>
@@ -103,10 +106,10 @@ include(ROOT_PATH . 'inc/header.php');
                                                 We
                                             </td>
                                             <td>
-                                               To
+                                               Tozo (Tow-zow)
                                             </td>
                                             <th>
-                                                We drink : <strong class='red';>To</strong>zo Mela
+                                                We eat : <strong class='red';>Tozo</strong> lina
                                             </th>
                                         </tr>
                                         <tr>
@@ -114,10 +117,10 @@ include(ROOT_PATH . 'inc/header.php');
                                                 You (plural)
                                             </td>
                                             <td>
-                                               Bo
+                                               Bo-zo (Bow-zow)
                                             </td>
                                             <th>
-                                                You all drink : <strong class='red';>Bo</strong>zo Mela
+                                                You all eat : <strong class='red';>Bozo</strong> lina
                                             </th>
                                         </tr>
                                         <tr>
@@ -125,19 +128,19 @@ include(ROOT_PATH . 'inc/header.php');
                                                 They
                                             </td>
                                             <td>
-                                               Ba
+                                               Bazo (Bah-zow)
                                             </td>
                                             <th>
-                                                They drink : <strong class='red';>Ba</strong>zo Mela
+                                                They eat : <strong class='red';>Bazo</strong>lina
                                             </th>
                                         </tr>
                                     </table>
                                 </div>
-                            </div>
-                                    
-            </div>
+                            </div>        
+                        </div>
+<!-- where the panel ends --> 
 
-                <a class="button startQuiz btn btn-success" href="#">Get Started!</a>
+                <a class="button startQuiz btn btn-success" href="#">Take Quiz</a>
             </div>
 
             <!-- where the quiz gets built -->

@@ -14,12 +14,13 @@ include(ROOT_PATH . 'inc/header.php'); ?>
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
-                            Basic <small></small>
+                            Basics <small>Part 3</small>
                         </h1>
                         <ol class="breadcrumb">
                             <li class="active">
-                                <i class="fa fa-dashboard"></i> Basic Lingala 3
+                                <a href="<?php echo BASE_URL; ?>basic/index.php"><i class="fa fa-dashboard"></i> Basics</a> 
                             </li>
+                            <li><a href="<?php echo BASE_URL; ?>basic/basic3.php">Subject Markers Pt. 2</a></li>
                         </ol>
                     </div>
                 </div>
@@ -34,7 +35,110 @@ include(ROOT_PATH . 'inc/header.php'); ?>
             <div class="quizHeader">
                 <!-- where the quiz main copy goes -->
 
-                <a class="button startQuiz btn btn-success" href="#">Get Started!</a>
+                  <!-- where the panel begins --> 
+   <div class="content" id="gone">
+            <div class="panel panel-default">
+                            <!-- Default panel contents -->
+                                <div class="panel-heading">Subject Markers </div>
+                                <div class="panel-body"> The continious present tense is constructed by combining the Subject Marker + <strong class='red';>zali</strong> <!--+ verb-->
+                                </div>
+                                  <!-- Table -->
+                                  <table class="table">
+                                        <tr>
+                                            <th>
+                                                English
+                                            </th>
+                                            <th>
+                                                Lingala
+                                            </th>
+                                            <!--<th>
+                                                Example - To Sleep : Kolala (Ko-la-la)
+                                            </th>-->
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                I
+                                            </td>
+                                            <td>
+                                               Na<strong class='red';>zali</strong> (Nah-zah-lee)
+                                            </td>
+                                            <!--<th>
+                                                I sleep : Na<strong class='red';>zali</strong> Kolala
+                                            </th>-->
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                You (singular)
+                                            </td>
+                                            <td>
+                                               O<strong class='red';>zali</strong> (O-zah-lee)
+                                            </td>
+                                           <!-- <th>
+                                                You sleep : O<strong class='red';>zali</strong> Kolala
+                                            </th>-->
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                He/She
+                                            </td>
+                                            <td>
+                                               A<strong class='red';>zali</strong> (Ah-zah-lee)
+                                            </td>
+                                            <!--<th>
+                                                He/She sleeps : A<strong class='red';>zali</strong> Kolala
+                                            </th>-->
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                It
+                                            </td>
+                                            <td>
+                                               E<strong class='red';>zali</strong>(Eh-zah-lee)
+                                            </td>
+                                            <!--<th>
+                                                It sleeps : E<strong class='red';>zali</strong> Kolala
+                                            </th>-->
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                We
+                                            </td>
+                                            <td>
+                                               To<strong class='red';>zali</strong> (Tow-zah-lee)
+                                            </td>
+                                            <!--<th>
+                                                We sleep : To<strong class='red';>zali</strong> Kolala
+                                            </th>-->
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                You (plural)
+                                            </td>
+                                            <td>
+                                               Bo<strong class='red';>zali</strong> (Bow-zah-lee)
+                                            </td>
+                                            <!--<th>
+                                                You all sleep : Bo<strong class='red';>zali</strong> Kolala
+                                            </th>-->
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                They
+                                            </td>
+                                            <td>
+                                               Ba<strong class='red';>zali</strong> (Bah-zah-lee)
+                                            </td>
+                                            <!--<th>
+                                                They sleep : Ba<strong class='red';>zali</strong> Kolala
+                                            </th>-->
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+<!-- where the panel Ends --> 
+
+
+                <a class="button startQuiz btn btn-success" href="#">Take Quiz</a>
             </div>
 
             <!-- where the quiz gets built -->

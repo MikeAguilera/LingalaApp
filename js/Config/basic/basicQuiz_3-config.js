@@ -22,11 +22,11 @@ var basicJSON = {
                 {"option": "Azali",  "correct": false},
                 {"option": "Nazali",     "correct": true} // no comma here
             ],
-            "correct": "<p><span>That's right!</span>.</p>",
+            "correct": "<p><span>That's right!</span></p>",
             "incorrect": "<p><span>Uhh no.</span> Better luck next time. The correct answer is <em>Nazali</em>.</p>" // no comma here
         },
         { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
-            "q": "What is the Subject Marker for 'You'?",
+            "q": "What is the Subject Marker for 'You' (singular)?",
             "a": [
                 {"option": "Ozali",   "correct": true},
                 {"option": "Bazali",   "correct": false},
@@ -71,7 +71,7 @@ var basicJSON = {
             "incorrect": "<p><span>Sorry.</span> The correct answer is <em>Tozali</em>.</p>" // no comma here
         }, 
         { // Question 6 - Multiple Choice, Single True Answer
-            "q": "What is the Subject Marker for 'You'?",
+            "q": "What is the Subject Marker for 'You' (plural)?",
             "a": [
                 {"option": "Ozali",    "correct": false},
                 {"option": "Bazali",     "correct": false},

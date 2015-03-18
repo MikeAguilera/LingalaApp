@@ -14,12 +14,13 @@ include(ROOT_PATH . 'inc/header.php');?>
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
-                            Basic <small></small>
+                            Basics <small>Part 1</small>
                         </h1>
                         <ol class="breadcrumb">
                             <li class="active">
-                                <i class="fa fa-dashboard"></i> Basic Lingala 1
+                             <a href="<?php echo BASE_URL; ?>basic/index.php"><i class="fa fa-dashboard"></i> Basics</a> 
                             </li>
+                            <li><a href="<?php echo BASE_URL; ?>basic/basic.php">Subject Markers Pt. 1</a></li>
                         </ol>
                     </div>
                 </div>
@@ -34,6 +35,8 @@ include(ROOT_PATH . 'inc/header.php');?>
             <div class="quizArea">
                 <div class="quizHeader">
                     <!-- where the quiz main copy goes -->
+
+   <!-- where the panel begins --> 
    <div class="content" id="gone">
             <div class="panel panel-default">
                             <!-- Default panel contents -->
@@ -49,91 +52,67 @@ include(ROOT_PATH . 'inc/header.php');?>
                                             <th>
                                                 Lingala
                                             </th>
-                                            <th>
-                                                Example - To Drink : Komela
-                                            </th>
                                         </tr>
                                         <tr>
                                             <td>
                                                 I
                                             </td>
                                             <td>
-                                               Na
+                                               Na (Nah)
                                             </td>
-                                            <th>
-                                                I drink : <strong class='red';>Na</strong>zo Mela
-                                            </th>
                                         </tr>
                                         <tr>
                                             <td>
                                                 You (singular)
                                             </td>
                                             <td>
-                                               O
+                                               O (O)
                                             </td>
-                                            <th>
-                                                You drink : <strong class='red';>O</strong>zo Mela
-                                            </th>
                                         </tr>
                                         <tr>
                                             <td>
                                                 He/She
                                             </td>
                                             <td>
-                                               A
+                                               A (Ah)
                                             </td>
-                                            <th>
-                                                He/She drinks : <strong class='red';>A</strong>zo Mela
-                                            </th>
                                         </tr>
                                         <tr>
                                             <td>
                                                 It
                                             </td>
                                             <td>
-                                               E
+                                               E (Eh)
                                             </td>
-                                            <th>
-                                                It drinks : <strong class='red';>E</strong>zo Mela
-                                            </th>
                                         </tr>
                                         <tr>
                                             <td>
                                                 We
                                             </td>
                                             <td>
-                                               To
+                                               To (Tow)
                                             </td>
-                                            <th>
-                                                We drink : <strong class='red';>To</strong>zo Mela
-                                            </th>
                                         </tr>
                                         <tr>
                                             <td>
                                                 You (plural)
                                             </td>
                                             <td>
-                                               Bo
+                                               Bo (Bow)
                                             </td>
-                                            <th>
-                                                You all drink : <strong class='red';>Bo</strong>zo Mela
-                                            </th>
                                         </tr>
                                         <tr>
                                             <td>
                                                 They
                                             </td>
                                             <td>
-                                               Ba
+                                               Ba (Bah)
                                             </td>
-                                            <th>
-                                                They drink : <strong class='red';>Ba</strong>zo Mela
-                                            </th>
                                         </tr>
                                     </table>
                                 </div>
                             </div>
-
+<!-- where the panel Ends --> 
             
 
                     <a class="button startQuiz btn btn-success" href="#">Take Quiz</a>

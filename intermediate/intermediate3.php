@@ -14,11 +14,13 @@ include(ROOT_PATH . 'inc/header.php'); ?>
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
-                            Basic <small></small>
+                            Intermediate <small>Part 3</small>
                         </h1>
                         <ol class="breadcrumb">
                             <li class="active">
-                                <i class="fa fa-dashboard"></i> Basic Lingala 3
+                                <a href="<?php echo BASE_URL; ?>intermediate/index.php"><i class="fa fa-comments"></i> Intermediate</a> 
+                            </li>
+                            <li><a href="<?php echo BASE_URL; ?>Intermediate/Intermediate3.php">Subject Markers Pt. 4</a></li>
                             </li>
                         </ol>
                     </div>
@@ -33,6 +35,107 @@ include(ROOT_PATH . 'inc/header.php'); ?>
         <div class="quizArea">
             <div class="quizHeader">
                 <!-- where the quiz main copy goes -->
+                <!-- where the panel begins --> 
+   <div class="content" id="gone">
+            <div class="panel panel-default">
+                            <!-- Default panel contents -->
+                                <div class="panel-heading">Subject Markers </div>
+                                <div class="panel-body"> The continious future tense is constructed by combining the Subject Marker + <strong class='red';>ko</strong>.
+                                </div>
+                                  <!-- Table -->
+                                  <table class="table">
+                                        <tr>
+                                            <th>
+                                                English
+                                            </th>
+                                            <th>
+                                                Lingala
+                                            </th>
+                                            <!--<th>
+                                                Example - To Drink : Ko mela (Ko-meh-lah)
+                                            </th>-->
+                                        </tr> 
+                                        <tr>
+                                            <td>
+                                                I
+                                            </td>
+                                            <td>
+                                               Na<strong class='red';>ko</strong> (Nah-ko)
+                                            </td>
+                                            <!--<th>
+                                                I drank : <strong class='red';>Nako</strong> mela
+                                            </th>-->
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                You (singular)
+                                            </td>
+                                            <td>
+                                               O<strong class='red';>ko</strong>(O-ko)
+                                            </td>
+                                            <!--<th>
+                                                You drank : <strong class='red';>Oko</strong> mela
+                                            </th>-->
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                He/She
+                                            </td>
+                                            <td>
+                                               A<strong class='red';>ko</strong> (Ah-ko)
+                                            </td>
+                                            <!--<th>
+                                                He/She drank : <strong class='red';>Ako</strong> mela
+                                            </th>-->
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                It
+                                            </td>
+                                            <td>
+                                               E<strong class='red';>ko</strong> (Eh-ko)
+                                            </td>
+                                            <!--<th>
+                                                It drank : <strong class='red';>Eko</strong> mela
+                                            </th>-->
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                We
+                                            </td>
+                                            <td>
+                                               To<strong class='red';>ko</strong> (Tow-ko)
+                                            </td>
+                                            <!--<th>
+                                                We drank : <strong class='red';>Toko</strong> mela
+                                            </th>-->
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                You (plural)
+                                            </td>
+                                            <td>
+                                               Bo<strong class='red';>ko</strong>(Bow-ko)
+                                            </td>
+                                            <!--<th>
+                                                You all drank : <strong class='red';>Boko</strong> mela
+                                            </th>-->
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                They
+                                            </td>
+                                            <td>
+                                               Ba<strong class='red';>ko</strong> (Bah-ko)
+                                            </td>
+                                            <!--<th>
+                                                They drank : <strong class='red';>Bako</strong> mela
+                                            </th>-->
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+<!-- where the panel Ends --> 
 
                 <a class="button startQuiz btn btn-success" href="#">Get Started!</a>
             </div>
