@@ -341,7 +341,7 @@ form input[type="submit"] {
         margin-top: -45px !important;
     }
 
-    .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+   .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
     max-height: 420px;
     }
     .section.shirts ul.products {

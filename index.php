@@ -33,7 +33,7 @@ include(ROOT_PATH . 'inc/header.php'); ?>
 </div>
 </div>
 
-            <div class="container">
+            <div class="container col-lg-12">
                 <div class="content">
                     <h2>Introduction</h2>
                     <p>
